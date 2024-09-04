@@ -4,17 +4,17 @@ const Navbar = () => {
       <h3 className="font-bold text-3xl cursor-pointer mb-4 absolute left-0 top-1/2 -translate-y-1/2">
         <a href="/">CollabIn</a>
       </h3>
-      <ul className="flex gap-4 items-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 navbar">
-        <li className="py-1 px-[.7rem]">
+      <ul className="flex gap-4 items-center cursor-pointer absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 navbar">
+        <li className="py-1 px-4 hover:bg-text hover:text-background rounded-sm">
           <a href="/">HOMEPAGE</a>
         </li>
-        <li className="py-1 px-[.7rem]">
+        <li className="py-1 px-4 hover:bg-text hover:text-background rounded-sm">
           <a href="/projects">PROJECTS</a>
         </li>
-        <li className="py-1 px-[.7rem]">
+        <li className="py-1 px-4 hover:bg-text hover:text-background rounded-sm">
           <a href="/my-projects">MY PROJECTS</a>
         </li>
-        <li className="py-1 px-[.7rem]">
+        <li className="py-1 px-4 hover:bg-text hover:text-background rounded-sm">
           <a href="/bookmarks">BOOKMARKS</a>
         </li>
       </ul>
