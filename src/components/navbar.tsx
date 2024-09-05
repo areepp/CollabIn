@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <nav className="py-8 mx-10 relative">
-      <h3 className="font-bold text-3xl cursor-pointer mb-4 absolute left-0 top-1/2 -translate-y-1/2">
+    <nav className="py-8 relative">
+      <h3 className="left-10 font-bold text-3xl cursor-pointer mb-4 absolute top-1/2 -translate-y-1/2">
         <a href="/">CollabIn</a>
       </h3>
       <ul className="flex gap-4 items-center cursor-pointer absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 navbar">
