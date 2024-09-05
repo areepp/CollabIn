@@ -1,6 +1,7 @@
 ---
 import '@fontsource/saira-condensed'
 import '@fontsource-variable/roboto-mono'
+import Navbar from '../components/navbar'
 interface Props {
 	title: string;
 }
@@ -18,6 +19,9 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
+	<header>
+		<Navbar>
+	</header>
 	<body>
 		<slot />
 	</body>
