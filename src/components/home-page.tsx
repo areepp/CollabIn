@@ -1,26 +1,28 @@
 import Button from './button'
 import { NAVBAR_HEIGHT } from './navbar'
+import PROJECTS_JSON from './../constants/projects.json'
 
-const ProjectThumbnail = () => (
+const ProjectThumbnail = ({
+  imageUrl,
+  title,
+  description,
+}: {
+  imageUrl: string
+  title: string
+  description: string
+}) => (
   <div className="flex even:flex-row-reverse gap-6 items-center">
     <div className="flex-1 h-[350px] relative">
       <img
-        src="/project-image-2.png"
+        src={imageUrl}
         className="w-full h-full object-cover grayscale hover:grayscale-0 transition"
         alt="project cover"
       />
     </div>
     <div className="w-px h-[350px] bg-background" />
-    <div className="w-[400px]">
-      <h3 className="text-4xl font-bold">HOW TO INSTALL LAPTOP</h3>
-      <p className="mt-3">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.{' '}
-      </p>
+    <div className="w-[400px] self-start">
+      <h3 className="text-4xl font-bold">{title}</h3>
+      <p className="mt-3">{description}</p>
     </div>
   </div>
 )
@@ -98,10 +100,24 @@ const HomePage = () => {
         <div className="container p-32 mx-auto">
           <h2 className="text-8xl font-extrabold">PROJECTS</h2>
           <div className="mt-12 flex flex-col gap-24">
-            <ProjectThumbnail />
-            <ProjectThumbnail />
+            <ProjectThumbnail
+              imageUrl={PROJECTS_JSON.projects[0].media[0]}
+              title={PROJECTS_JSON.projects[0].title}
+              description={PROJECTS_JSON.projects[0].description}
+            />
+            <ProjectThumbnail
+              imageUrl={PROJECTS_JSON.projects[1].media[0]}
+              title={PROJECTS_JSON.projects[1].title}
+              description={PROJECTS_JSON.projects[1].description}
+            />
             <div className="flex items-center">
-              <ProjectThumbnail />
+              <div className="flex-1">
+                <ProjectThumbnail
+                  imageUrl={PROJECTS_JSON.projects[2].media[0]}
+                  title={PROJECTS_JSON.projects[2].title}
+                  description={PROJECTS_JSON.projects[2].description}
+                />
+              </div>
               <div className="w-px h-[350px] ml-6 bg-background" />
               <a
                 href="/projects"
