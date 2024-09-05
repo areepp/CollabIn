@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="py-8 relative">
+    <nav className="py-8 relative" id="navbar">
       <h3 className="left-10 font-bold text-3xl cursor-pointer mb-4 absolute top-1/2 -translate-y-1/2">
         <a href="/">CollabIn</a>
       </h3>
@@ -20,7 +20,9 @@ const Navbar = () => {
       </ul>
       <div></div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export const NAVBAR_HEIGHT = '64px'
+
+export default Navbar

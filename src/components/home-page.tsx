@@ -1,8 +1,10 @@
+import { NAVBAR_HEIGHT } from './navbar'
+
 const HomePage = () => {
   return (
     <main className="">
       <div
-        className="relative z-10 flex items-center justify-center flex-col text-center h-screen bg-cover bg-center"
+        className={`relative z-10 flex items-center justify-center flex-col text-center h-[calc(100vh-${NAVBAR_HEIGHT})] bg-cover bg-center`}
         style={{
           backgroundImage: 'url("/index-main-background.png")',
         }}
