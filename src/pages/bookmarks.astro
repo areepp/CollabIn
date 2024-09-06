@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Content from "./projects/content";
+import Header from "./projects/header";
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="bg-text">
+		<div class="container px-5 py-6 mx-auto">
+			<Header subheader="BOOKMARKS" client:load/>
+			<Content />
+		</div>
+	</main>
+</Layout>
