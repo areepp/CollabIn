@@ -1,15 +1,15 @@
-import Button from './button'
-import { NAVBAR_HEIGHT } from './navbar'
-import PROJECTS_JSON from './../constants/projects.json'
+import Button from './button';
+import { NAVBAR_HEIGHT } from './navbar';
+import PROJECTS_JSON from './../constants/projects.json';
 
 const ProjectThumbnail = ({
   imageUrl,
   title,
   description,
 }: {
-  imageUrl: string
-  title: string
-  description: string
+  imageUrl: string;
+  title: string;
+  description: string;
 }) => (
   <div className="flex even:flex-row-reverse gap-6 items-center">
     <div className="flex-1 h-[350px] relative">
@@ -25,13 +25,13 @@ const ProjectThumbnail = ({
       <p className="mt-3">{description}</p>
     </div>
   </div>
-)
+);
 
 const HomePage = () => {
   return (
     <main>
       <section
-        className={`relative z-10 flex items-center justify-center flex-col text-center h-[calc(100vh-${NAVBAR_HEIGHT})] bg-cover bg-center`}
+        className={`relative z-10 flex items-center justify-center flex-col text-center h-[calc(100vh-64px)] bg-cover bg-center`}
         style={{
           backgroundImage: 'url("/index-main-background.png")',
         }}
@@ -143,7 +143,7 @@ const HomePage = () => {
         </div>
       </section>
     </main>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
