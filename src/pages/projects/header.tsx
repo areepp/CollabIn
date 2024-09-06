@@ -1,24 +1,19 @@
 import { useState } from 'react';
-import Content from './content';
 import data from '../../constants/projects.json';
 
-const Projects = () => {
+const Header = () => {
   const [headerText, setHeaderText] = useState('ALL PROJECTS');
-  const [filteredData, setFilteredData] = useState(data['project-details']);
+  const [filteredData, setFilteredData] = useState(data.projects);
 
   const handleFilter = (text?: string) => {
     let result;
 
     if (text === 'FINISHED') {
-      result = data['project-details'].filter(
-        (detail) => detail.is_finished === true
-      );
+      result = data.projects.filter((detail) => detail.is_finished === true);
     } else if (text === 'OPEN FOR CONTRIBUTORS') {
-      result = data['project-details'].filter(
-        (detail) => detail.is_finished === false
-      );
+      result = data.projects.filter((detail) => detail.is_finished === false);
     } else {
-      result = data['project-details'];
+      result = data.projects;
     }
 
     setHeaderText(String(text));
@@ -55,4 +50,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Header;
