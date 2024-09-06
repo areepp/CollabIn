@@ -1,14 +1,14 @@
 {
-  "project-details": [
+  "projects": [
     {
       "id": "1",
       "title": "Project One",
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "music",
-      "description": "This is the first project.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "mferdinr",
-      "media": "",
+      "media": ["/project-image-3.png"],
       "job_description": "ini gini gitu wak",
       "finished_date": "20-07-2024",
       "contributors": ["ahmad sri", "sri tayu"]
@@ -19,9 +19,9 @@
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "web",
-      "description": "This is the Second project.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "arifamjy",
-      "media": "",
+      "media": ["/project-image-2.png"],
       "job_description": "terbang dan berenang",
       "finished_date": null,
       "contributors": []
@@ -32,9 +32,9 @@
       "email": "ferdinr@gmail.com",
       "is_finished": false,
       "category": "video",
-      "description": "This is the third project.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "feridnoke",
-      "media": "",
+      "media": ["/project-image-1.png"],
       "job_description": "Membuat video",
       "finished_date": null,
       "contributors": []
