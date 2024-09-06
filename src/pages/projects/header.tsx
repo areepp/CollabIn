@@ -4,21 +4,19 @@ import Button from '../../components/button';
 
 const Header = ({ subheader }: { subheader?: string }) => {
   const [headerText, setHeaderText] = useState('ALL PROJECTS');
-  const [filteredData, setFilteredData] = useState(data.projects);
 
   const handleFilter = (text?: string) => {
     let result;
 
     if (text === 'FINISHED') {
       result = data.projects.filter((detail) => detail.is_finished === true);
-    } else if (text === 'OPEN FOR CONTRIBUTION') {
+    } else if (text === 'OPEN FOR CONTRIBUTORS') {
       result = data.projects.filter((detail) => detail.is_finished === false);
     } else {
       result = data.projects;
     }
 
     setHeaderText(String(text));
-    setFilteredData(result);
   };
 
   return (
