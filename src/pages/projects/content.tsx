@@ -1,11 +1,10 @@
-import React from 'react';
-import data from '../../constants/projects.json';
-
+import PROJECTS_JSON from './../../constants/projects.json';
 type ProjectProps = {
   title: string;
   image: string;
   description: string;
   id: string;
+  index?: number;
 };
 
 export const ProjectList1 = ({
@@ -15,14 +14,18 @@ export const ProjectList1 = ({
   id,
 }: ProjectProps) => {
   return (
-    <a href={`/projects/${id}`} className="cursor-pointer text-background">
-      <img
-        src={image}
-        alt=""
-        width={300}
-        className="w-full grayscale-100 grayscale duration-300 hover:grayscale-0"
-      />
-      <h3 className="font-bold text-4xl py-2">{title}</h3>
+    <a
+      href={`/projects/${id}`}
+      className={`relative flex flex-col gap-1 px-6 cursor-pointer text-background first:after:content-[""] first:after:absolute first:after:w-1 first:after:h-[200vh] first:after:bg-background first:after:right-0`}
+    >
+      <div className="w-full h-[250px] mx-auto">
+        <img
+          src={image}
+          alt=""
+          className="w-full h-full object-cover grayscale-100 grayscale duration-300 hover:grayscale-0"
+        />
+      </div>
+      <h3 className="font-bold text-4xl">{title}</h3>
       <p className="font-mono text-sm">{description}</p>
     </a>
   );
@@ -33,134 +36,57 @@ export const ProjectList2 = ({
   image,
   description,
   id,
+  index,
 }: ProjectProps) => {
   return (
-    <a
-      href={`/projects/${id}`}
-      className="bg-background text-text flex flex-col items-center text-center p-4 cursor-pointer rounded"
+    <div
+      className={`px-6 relative ${index === 1 ? 'after:content-[""] after:absolute after:w-1 after:h-[200vh] after:bg-background after:right-0 after:top-0' : ''}`}
     >
-      <h3 className="font-bold text-4xl">{title}</h3>
-      <img
-        src={image}
-        alt="Description"
-        className="w-full grayscale duration-300 hover:grayscale-0 py-3"
-      />
-      <p className="font-mono text-sm">{description}</p>
-    </a>
+      <a
+        href={`/projects/${id}`}
+        className="bg-background text-text flex flex-col gap-3 items-center text-center p-3 cursor-pointer rounded"
+      >
+        <h3 className="font-bold text-4xl">{title}</h3>
+        <div className="w-full h-[250px]">
+          <img
+            src={image}
+            alt=""
+            className="w-full h-full grayscale-100 object-cover grayscale duration-300 hover:grayscale-0"
+          />
+        </div>
+        <p className="font-mono text-sm">{description}</p>
+      </a>
+    </div>
   );
 };
 
 const Content = () => {
   return (
-    <div className="grid md:grid-cols-3 gap-4 my-5 bg-text">
-      <div className="flex flex-col gap-7 border-r-4 border-background pr-4">
-        <ProjectList1
-          title={'HOW TO INSTALL LAPTOP'}
-          description={`Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.`}
-          image={'/project-image-2.png'}
-          id="123134"
-        />
-        <ProjectList2
-          title={'HOW TO INSTALL LAPTOP'}
-          description={`Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.`}
-          image={'/project-image-2.png'}
-          id="123134"
-        />
-        <ProjectList1
-          title={'HOW TO INSTALL LAPTOP'}
-          description={`Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.`}
-          image={'/project-image-2.png'}
-          id="123134"
-        />
-      </div>
-      <div>
-        <img src="/Divider.png" alt="Divider" className="w-full" />
-        <div className="flex flex-col gap-7">
-          <ProjectList2
-            title={'HOW TO INSTALL LAPTOP'}
-            description={`Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.`}
-            image={'/project-image-2.png'}
-            id="123134"
-          />
-          <ProjectList1
-            title={'HOW TO INSTALL LAPTOP'}
-            description={`Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.`}
-            image={'/project-image-2.png'}
-            id="123134"
-          />
-          <ProjectList2
-            title={'HOW TO INSTALL LAPTOP'}
-            description={`Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.`}
-            image={'/project-image-2.png'}
-            id="123134"
-          />
-        </div>
-      </div>
-      <div className="flex flex-col gap-7 border-l-4 border-background pl-4">
-        <ProjectList1
-          title={'HOW TO LAPTOP'}
-          description={`Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.`}
-          image={'/project-image-2.png'}
-          id="123134"
-        />
-        <ProjectList2
-          title={'HOW TO LAPTOP'}
-          description={`Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.`}
-          image={'/project-image-2.png'}
-          id="123134"
-        />
-        <ProjectList1
-          title={'HOW TO LAPTOP'}
-          description={`Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centurie Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry.`}
-          image={'/project-image-2.png'}
-          id="123134"
-        />
-      </div>
+    <div className="mt-12 mb-24 grid grid-cols-3 gap-y-6 overflow-hidden">
+      {PROJECTS_JSON.projects.map((project, index) => {
+        if (index % 2 === 0)
+          return (
+            <ProjectList1
+              key={project.id}
+              id={project.id}
+              description={project.description.slice(0, 300) + '...'}
+              image={project.media[0]}
+              title={project.title}
+            />
+          );
+
+        if (index % 2 === 1)
+          return (
+            <ProjectList2
+              key={project.id}
+              id={project.id}
+              description={project.description.slice(0, 190) + '...'}
+              image={project.media[0]}
+              title={project.title}
+              index={index}
+            />
+          );
+      })}
     </div>
   );
 };

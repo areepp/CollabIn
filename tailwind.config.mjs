@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#051515',
-        text: '#F1E1E1',
+        background: '#0c0b03',
+        text: '#f9f8e4',
         secondary: '#129092',
       },
     },
@@ -16,4 +16,4 @@ export default {
     },
   },
   plugins: [],
-}
+};
