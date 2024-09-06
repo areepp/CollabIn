@@ -56,7 +56,9 @@ const Header = ({ subheader }: { subheader?: string }) => {
         <h2 className="text-center sm:text-9xl text-5xl">{headerText}</h2>
       </div>
       {subheader === 'MY PROJECTS' && (
-        <Button className="absolute right-7 -bottom-7">ADD PROJECT</Button>
+        <Button className="absolute right-7 -bottom-7">
+          <a href="/my-projects/new">ADD PROJECT</a>
+        </Button>
       )}
     </div>
   );
