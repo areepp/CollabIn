@@ -2,20 +2,15 @@
 import Layout from '../../layouts/Layout.astro'
 import Header from '../../components/header'
 import ProjectDetail from './[id]'
+import PROJECTS_DATA from '../../constants/projects.json'
 
 export function getStaticPaths() {
-  return [
-    { params: { id: '1' } },
-    { params: { id: '2' } },
-    { params: { id: '3' } },
-    { params: { id: '4' } },
-    { params: { id: '5' } },
-    { params: { id: '6' } },
-    { params: { id: '7' } },
-    { params: { id: '8' } },
-    { params: { id: '9' } },
-  ]
+  return PROJECTS_DATA.projects.map((project) => ({
+    params: { id: project.id },
+  }))
 }
+
+const { id } = Astro.params
 ---
 
 <Layout title="Projects | CollabIn">
@@ -32,6 +27,6 @@ export function getStaticPaths() {
         />
       </div>
     </div>
-    <ProjectDetail client:load />
+    <ProjectDetail id={Number(id)} client:load />
   </main>
 </Layout>

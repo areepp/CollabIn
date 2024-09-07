@@ -6,12 +6,18 @@
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "mferdinr",
-      "media": ["/project-image-3.png"],
+      "media": [
+        "/project-image-3.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
       "job_description": "ini gini gitu wak",
       "finished_date": "20-07-2024",
-      "contributors": ["ahmad sri", "sri tayu"]
+      "contributors": ["ahmad sri", "sri tayu"],
+      "is_my_project": false,
+      "author": "Emily Johnson"
     },
     {
       "id": "2",
@@ -19,12 +25,18 @@
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "web",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "arifamjy",
-      "media": ["/project-image-2.png"],
+      "media": [
+        "/project-image-2.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
       "job_description": "terbang dan berenang",
       "finished_date": null,
-      "contributors": []
+      "contributors": [],
+      "is_my_project": true,
+      "author": "Michael Chen"
     },
     {
       "id": "3",
@@ -32,12 +44,18 @@
       "email": "ferdinr@gmail.com",
       "is_finished": false,
       "category": "video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "feridnoke",
-      "media": ["/project-image-1.png"],
+      "media": [
+        "/project-image-1.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
       "job_description": "Membuat video",
       "finished_date": null,
-      "contributors": []
+      "contributors": [],
+      "is_my_project": false,
+      "author": "Sarah Rodriguez"
     },
     {
       "id": "4",
@@ -45,12 +63,18 @@
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "mferdinr",
-      "media": ["/project-image-3.png"],
+      "media": [
+        "/project-image-3.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
       "job_description": "ini gini gitu wak",
       "finished_date": "20-07-2024",
-      "contributors": ["ahmad sri", "sri tayu"]
+      "contributors": ["ahmad sri", "sri tayu"],
+      "is_my_project": false,
+      "author": "David Kim"
     },
     {
       "id": "5",
@@ -58,12 +82,18 @@
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "web",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "arifamjy",
-      "media": ["/project-image-2.png"],
+      "media": [
+        "/project-image-2.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
       "job_description": "terbang dan berenang",
       "finished_date": null,
-      "contributors": []
+      "contributors": [],
+      "is_my_project": true,
+      "author": "Jessica Lee"
     },
     {
       "id": "6",
@@ -71,12 +101,18 @@
       "email": "ferdinr@gmail.com",
       "is_finished": false,
       "category": "video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "feridnoke",
-      "media": ["/project-image-1.png"],
+      "media": [
+        "/project-image-1.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
       "job_description": "Membuat video",
       "finished_date": null,
-      "contributors": []
+      "contributors": [],
+      "is_my_project": false,
+      "author": "Robert Taylor"
     },
     {
       "id": "7",
@@ -84,12 +120,18 @@
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "mferdinr",
-      "media": ["/project-image-3.png"],
+      "media": [
+        "/project-image-3.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
       "job_description": "ini gini gitu wak",
       "finished_date": "20-07-2024",
-      "contributors": ["ahmad sri", "sri tayu"]
+      "contributors": ["ahmad sri", "sri tayu"],
+      "is_my_project": true,
+      "author": "Jennifer Brown"
     },
     {
       "id": "8",
@@ -97,12 +139,18 @@
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "web",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "arifamjy",
-      "media": ["/project-image-2.png"],
+      "media": [
+        "/project-image-2.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
       "job_description": "terbang dan berenang",
       "finished_date": null,
-      "contributors": []
+      "contributors": [],
+      "is_my_project": false,
+      "author": "Christopher Wong"
     },
     {
       "id": "9",
@@ -110,12 +158,18 @@
       "email": "ferdinr@gmail.com",
       "is_finished": false,
       "category": "video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       "instagram_username": "feridnoke",
-      "media": ["/project-image-1.png"],
+      "media": [
+        "/project-image-1.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
       "job_description": "Membuat video",
       "finished_date": null,
-      "contributors": []
+      "contributors": [],
+      "is_my_project": false,
+      "author": "Amanda Garcia"
     }
   ]
 }
