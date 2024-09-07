@@ -1,17 +1,21 @@
 import Button from './button';
-import { NAVBAR_HEIGHT } from './navbar';
 import PROJECTS_JSON from './../constants/projects.json';
 
 const ProjectThumbnail = ({
+  id,
   imageUrl,
   title,
   description,
 }: {
+  id: string;
   imageUrl: string;
   title: string;
   description: string;
 }) => (
-  <div className="flex even:flex-row-reverse gap-6 items-center">
+  <a
+    href={`/projects/${id}`}
+    className="flex even:flex-row-reverse gap-6 items-center cursor-pointer"
+  >
     <div className="flex-1 h-[350px] relative">
       <img
         src={imageUrl}
@@ -24,7 +28,7 @@ const ProjectThumbnail = ({
       <h3 className="text-4xl font-bold">{title}</h3>
       <p className="mt-3">{description}</p>
     </div>
-  </div>
+  </a>
 );
 
 const HomePage = () => {
@@ -48,7 +52,8 @@ const HomePage = () => {
           </p>
         </div>
       </section>
-      <section className="container mx-auto p-32">
+      <img src="/wave-1.png" className="w-full absolute -mt-2" />
+      <section className="container mx-auto p-32 mt-[15vw]">
         <div className="flex items-center gap-12">
           <div>
             <img
@@ -96,16 +101,21 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-text text-background">
-        <div className="container p-32 mx-auto">
-          <h2 className="text-8xl font-extrabold">PROJECTS</h2>
+      <img src="/wave-2.png" className="w-full absolute -mt-[2vh]" />
+      <section className="bg-text text-background pt-[7vw]">
+        <div className="container p-32 pb-0 mx-auto">
+          <h2 className="text-9xl font-extrabold text-secondary pl-8">
+            PROJECTS
+          </h2>
           <div className="mt-12 flex flex-col gap-24">
             <ProjectThumbnail
+              id={PROJECTS_JSON.projects[0].id}
               imageUrl={PROJECTS_JSON.projects[0].media[0]}
               title={PROJECTS_JSON.projects[0].title}
               description={PROJECTS_JSON.projects[0].description}
             />
             <ProjectThumbnail
+              id={PROJECTS_JSON.projects[1].id}
               imageUrl={PROJECTS_JSON.projects[1].media[0]}
               title={PROJECTS_JSON.projects[1].title}
               description={PROJECTS_JSON.projects[1].description}
@@ -113,6 +123,7 @@ const HomePage = () => {
             <div className="flex items-center">
               <div className="flex-1">
                 <ProjectThumbnail
+                  id={PROJECTS_JSON.projects[2].id}
                   imageUrl={PROJECTS_JSON.projects[2].media[0]}
                   title={PROJECTS_JSON.projects[2].title}
                   description={PROJECTS_JSON.projects[2].description}
@@ -129,9 +140,12 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-background text-text p-32 flex items-center justify-center">
+      <img src="/wave-3.png" className="w-full absolute -mt-[3vh]" />
+      <section className="bg-background text-text p-32 flex items-center justify-center mt-[15vw]">
         <div className="flex flex-col max-w-xl text-center items-center gap-6">
-          <h2 className="text-8xl">FIND YOUR NEXT COLLABORATOR TODAY</h2>
+          <h2 className="text-8xl font-extrabold">
+            FIND YOUR NEXT COLLABORATOR TODAY
+          </h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
