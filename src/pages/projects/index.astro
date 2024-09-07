@@ -1,14 +1,14 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import Header from "./header";
-import Content from './content';
+import Layout from '../../layouts/Layout.astro'
+import Content from './content'
+import ProjectsHeader from './projects-header'
 ---
 
 <Layout title="Projects | CollabIn">
-	<main class="bg-text">
-		<div class="container px-5 py-6 mx-auto">
-			<Header client:load/>
-			<Content />
-		</div>
-	</main>
+  <main class="bg-text">
+    <div class="container px-5 py-6 mx-auto">
+      <ProjectsHeader client:load />
+      <Content />
+    </div>
+  </main>
 </Layout>

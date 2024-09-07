@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Header from '../../components/header'
+import ProjectDetail from './[id]'
+import PROJECTS_DATA from '../../constants/projects.json'
+
+export function getStaticPaths() {
+  return PROJECTS_DATA.projects.map((project) => ({
+    params: { id: project.id },
+  }))
+}
+
+const { id } = Astro.params
+---
+
+<Layout title="Projects | CollabIn">
+  <main>
+    <div class="bg-text">
+      <div class="container px-5 py-6 mx-auto">
+        <Header
+          headerText="JUDUL PROJECT"
+          text={{
+            first: 'THE AUTHOR',
+            second: 'OPEN FOR CONTRIBUTIONS',
+            third: 'THE CATEGORY',
+          }}
+        />
+      </div>
+    </div>
+    <ProjectDetail id={Number(id)} client:load />
+  </main>
+</Layout>

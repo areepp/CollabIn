@@ -1,9 +1,11 @@
 const Button = ({
   children,
   className,
+  onClick,
 }: {
-  children: React.ReactNode;
-  className?: string;
+  children: React.ReactNode
+  className?: string
+  onClick?: () => void
 }) => {
   return (
     <button
@@ -12,10 +14,11 @@ const Button = ({
         ' ' +
         className
       }
+      onClick={onClick}
     >
       {children}
     </button>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

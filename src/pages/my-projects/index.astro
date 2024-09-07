@@ -1,14 +1,20 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import Content from "../projects/content";
-import Header from "../projects/header";
+import Button from '../../components/button'
+import Layout from '../../layouts/Layout.astro'
+import Content from '../projects/content'
+import ProjectsHeader from '../projects/projects-header'
 ---
 
 <Layout title="My Projects | CollabIn">
-	<main class="bg-text">
-		<div class="container px-5 py-6 mx-auto">
-			<Header subheader="MY PROJECTS" client:load/>
-			<Content />
-		</div>
-	</main>
+  <main class="bg-text">
+    <div class="container px-5 py-6 mx-auto">
+      <ProjectsHeader subHeaderText="MY PROJECTS" client:load />
+      <div class="flex justify-end mr-6">
+        <Button className="text-right">
+          <a href="/my-projects/new">ADD PROJECT</a>
+        </Button>
+      </div>
+      <Content />
+    </div>
+  </main>
 </Layout>
