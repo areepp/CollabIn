@@ -5,8 +5,6 @@ import { ImageInput, TextInput } from '../../components/input'
 const ProjectDetail = ({ isMyProject = false }: { isMyProject?: boolean }) => {
   const [showContributeForm, setShowContributeForm] = useState(false)
 
-  console.log('isMyproject', isMyProject)
-
   return (
     <div className="mb-[550px]">
       <div className="w-full h-[650px] px-24 relative">
