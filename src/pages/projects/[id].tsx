@@ -1,8 +1,14 @@
+import { useState } from 'react'
 import Button from '../../components/button'
+import { ImageInput, TextInput } from '../../components/input'
 
-const ProjectDetail = () => {
+const ProjectDetail = ({ isMyProject = false }: { isMyProject?: boolean }) => {
+  const [showContributeForm, setShowContributeForm] = useState(false)
+
+  console.log('isMyproject', isMyProject)
+
   return (
-    <div className="mb-96">
+    <div className="mb-[550px]">
       <div className="w-full h-[650px] px-24 relative">
         <img
           src="/project-image-3.png"
@@ -11,11 +17,16 @@ const ProjectDetail = () => {
         />
         <div className="absolute inset-0 bg-text w-full h-[300px] -z-10" />
       </div>
-      <section className="mt-24 px-32 container mx-auto">
+      <section className="relative mt-24 px-32 container mx-auto">
         <div className="flex justify-between">
           <p>JOHN DOE -- PROJECT TITLE</p>
           <p>THE CATEGORY</p>
         </div>
+        <img
+          src="/bookmark-icon.svg"
+          alt="bookmark icon"
+          className="absolute right-0 top-0 cursor-pointer"
+        />
         <div className="px-32">
           <p className="my-12">
             17th anniversary remaster. New sleeve artwork with photos by Steve
@@ -74,12 +85,50 @@ const ProjectDetail = () => {
           release and it sold out REAL quick. Remastered and beefed the hell up
           by Craig Clouse at Shit And Shine Ranch 2022.
         </p>
-        <div className="mt-32 flex justify-between">
+        <div className="relative mt-32 flex justify-between">
           <div className="flex items-center">
             <img src="/instagram-logo.svg" alt="instagram logo" />
             <span className="text-xl">@arifamjy</span>
           </div>
-          <Button>CONTRIBUTE NOW</Button>
+          {isMyProject ? (
+            <>
+              <Button
+                onClick={() => setShowContributeForm(!showContributeForm)}
+              >
+                FINISH PROJECT
+              </Button>
+              {showContributeForm && (
+                <div className="absolute top-20 right-0 w-1/2 flex flex-col gap-6">
+                  <TextInput
+                    label="CONTRIBUTORS"
+                    placeholder="Enter the contributors of this project (separated by commas, e.g., John Doe, Quentin)"
+                  />
+                  <Button>SET PROJECT AS FINISHED</Button>
+                </div>
+              )}
+            </>
+          ) : (
+            <>
+              <Button
+                onClick={() => setShowContributeForm(!showContributeForm)}
+              >
+                CONTRIBUTE NOW
+              </Button>
+              {showContributeForm && (
+                <div className="absolute top-full right-0 w-1/2 flex flex-col gap-9">
+                  <TextInput label="NAME" placeholder="Enter your name" />
+                  <TextInput
+                    label="EMAIL"
+                    placeholder="name@email.com"
+                    type="email"
+                  />
+                  <TextInput label="PHONE NUMBER" placeholder="08xxxxxxxx" />
+                  <ImageInput label="PORTFOLIO OR PAST PROJECTS" />
+                  <Button>SEND</Button>
+                </div>
+              )}
+            </>
+          )}
         </div>
       </section>
     </div>
