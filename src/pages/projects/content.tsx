@@ -1,18 +1,13 @@
-import PROJECTS_JSON from './../../constants/projects.json';
+import PROJECTS_JSON from './../../constants/projects.json'
 type ProjectProps = {
-  title: string;
-  image: string;
-  description: string;
-  id: string;
-  index?: number;
-};
+  title: string
+  image: string
+  description: string
+  id: string
+  index?: number
+}
 
-export const ProjectList1 = ({
-  title,
-  image,
-  description,
-  id,
-}: ProjectProps) => {
+const ProjectList1 = ({ title, image, description, id }: ProjectProps) => {
   return (
     <a
       href={`/projects/${id}`}
@@ -28,10 +23,10 @@ export const ProjectList1 = ({
       <h3 className="font-bold text-4xl">{title}</h3>
       <p className="font-mono text-sm">{description}</p>
     </a>
-  );
-};
+  )
+}
 
-export const ProjectList2 = ({
+const ProjectList2 = ({
   title,
   image,
   description,
@@ -57,8 +52,8 @@ export const ProjectList2 = ({
         <p className="font-mono text-sm">{description}</p>
       </a>
     </div>
-  );
-};
+  )
+}
 
 const Content = () => {
   return (
@@ -73,7 +68,7 @@ const Content = () => {
               image={project.media[0]}
               title={project.title}
             />
-          );
+          )
 
         if (index % 2 === 1)
           return (
@@ -85,10 +80,10 @@ const Content = () => {
               title={project.title}
               index={index}
             />
-          );
+          )
       })}
     </div>
-  );
-};
+  )
+}
 
-export default Content;
+export default Content
