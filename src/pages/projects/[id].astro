@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Header from '../../components/header'
+import ProjectDetail from './[id]'
+
+export function getStaticPaths() {
+  return [
+    { params: { id: '1' } },
+    { params: { id: '2' } },
+    { params: { id: '3' } },
+    { params: { id: '4' } },
+    { params: { id: '5' } },
+    { params: { id: '6' } },
+    { params: { id: '7' } },
+    { params: { id: '8' } },
+    { params: { id: '9' } },
+  ]
+}
+---
+
+<Layout title="Projects | CollabIn">
+  <main>
+    <div class="bg-text">
+      <div class="container px-5 py-6 mx-auto">
+        <Header
+          headerText="JUDUL PROJECT"
+          text={{
+            first: 'THE AUTHOR',
+            second: 'OPEN FOR CONTRIBUTIONS',
+            third: 'THE CATEGORY',
+          }}
+        />
+      </div>
+    </div>
+    <ProjectDetail />
+  </main>
+</Layout>
