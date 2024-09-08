@@ -14,32 +14,40 @@ const ProjectDetail = ({
 
   return (
     <div className="mb-[550px]">
-      <div className="w-full h-[650px] px-24 relative">
+      <div className="w-full h-[650px] relative">
         <img
           src={PROJECT_DATA.projects[id].media[0]}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover px-24"
           alt="project cover"
         />
-        <div className="absolute inset-0 bg-text w-full h-[300px] -z-10" />
+        <div className="absolute inset-0 bg-text w-full h-[200px] -z-10" />
+        <img
+          src="/wave-3.svg"
+          alt=""
+          className="absolute w-full top-28 -z-10"
+        />
       </div>
       <section className="relative mt-24 px-32 container mx-auto">
-        <div className="flex justify-between">
+        <div className="flex justify-between text-secondary">
           <p>
             {PROJECT_DATA.projects[id].author} --{' '}
             {PROJECT_DATA.projects[id].title}
           </p>
-          <p>{PROJECT_DATA.projects[id].category}</p>
+          <div className="flex gap-10">
+            <p>{PROJECT_DATA.projects[id].category}</p>
+            <img
+              src="/bookmark-icon.svg"
+              alt="bookmark icon"
+              className="cursor-pointer"
+            />
+          </div>
         </div>
-        <img
-          src="/bookmark-icon.svg"
-          alt="bookmark icon"
-          className="absolute right-0 top-0 cursor-pointer"
-        />
         <div className="px-44">
           <p className="my-12">{PROJECT_DATA.projects[id].description}</p>
           <div className="flex gap-6">
-            {PROJECT_DATA.projects[id].media.map((media) => (
+            {PROJECT_DATA.projects[id].media.map((media, index) => (
               <img
+                key={index}
                 src={media}
                 width="150"
                 height="150"

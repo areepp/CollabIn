@@ -1,5 +1,5 @@
-import Button from './button';
-import PROJECTS_JSON from './../constants/projects.json';
+import Button from './button'
+import PROJECTS_JSON from './../constants/projects.json'
 
 const ProjectThumbnail = ({
   id,
@@ -7,10 +7,10 @@ const ProjectThumbnail = ({
   title,
   description,
 }: {
-  id: string;
-  imageUrl: string;
-  title: string;
-  description: string;
+  id: string
+  imageUrl: string
+  title: string
+  description: string
 }) => (
   <a
     href={`/projects/${id}`}
@@ -29,7 +29,7 @@ const ProjectThumbnail = ({
       <p className="mt-3">{description}</p>
     </div>
   </a>
-);
+)
 
 const HomePage = () => {
   return (
@@ -52,7 +52,7 @@ const HomePage = () => {
           </p>
         </div>
       </section>
-      <img src="/wave-1.png" className="w-full absolute -mt-2" />
+      <img src="/wave-1.svg" className="w-full absolute -mt-2" />
       <section className="container mx-auto p-32 mt-[15vw]">
         <div className="flex items-center gap-12">
           <div>
@@ -101,7 +101,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <img src="/wave-2.png" className="w-full absolute -mt-[2vh]" />
+      <img src="/wave-2.svg" className="w-full absolute -mt-[2vh]" />
       <section className="bg-text text-background pt-[7vw]">
         <div className="container p-32 pb-0 mx-auto">
           <h2 className="text-9xl font-extrabold text-secondary pl-8">
@@ -140,24 +140,26 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <img src="/wave-3.png" className="w-full absolute -mt-[3vh]" />
-      <section className="bg-background text-text p-32 flex items-center justify-center mt-[15vw]">
-        <div className="flex flex-col max-w-xl text-center items-center gap-6">
-          <h2 className="text-8xl font-extrabold">
-            FIND YOUR NEXT COLLABORATOR TODAY
-          </h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, ustry.
-          </p>
+      <section className="bg-background text-text flex items-center justify-center relative">
+        <div className="flex flex-col text-center absolute pb-24 gap-6 -top-2 items-center">
+          <img src="/wave-3.svg" className="w-screen -top-10" />
+          <div className="max-w-xl space-y-3">
+            <h2 className="text-8xl font-extrabold text-secondary max-w-xl ">
+              FIND YOUR NEXT COLLABORATOR TODAY
+            </h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, ustry.
+            </p>
+          </div>
           <Button className="w-fit">
             <a href="/my-projects/new">CREATE PROJECT</a>
           </Button>
         </div>
       </section>
     </main>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
