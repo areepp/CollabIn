@@ -1,19 +1,19 @@
-import Button from '../../components/button';
-import { ImageInput, TextArea, TextInput } from '../../components/input';
+import Button from '../../components/button'
+import { ImageInput, TextArea, TextInput } from '../../components/input'
 
 const Form = () => {
   return (
     <div className="flex justify-center gap-20 h-[calc(100vh-64px)] items-start pt-[6vw]">
-      <div className="text-5xl font-extrabold space-y-10">
+      <form action="" className="text-5xl font-extrabold space-y-10">
         <h2>CREATE NEW PROJECT</h2>
         <input
           type="text"
           placeholder="PROJECT NAME"
           className="bg-background text-secondary placeholder-secondary focus:outline-none focus:border-text border-b-2 w-5/6"
         />
-      </div>
+      </form>
 
-      <form action="" className="space-y-6">
+      <div className="space-y-6">
         <div className="flex gap-16">
           <TextInput label="CATEGORY" placeholder="music, platform, etc" />
           <TextInput label="INSTAGRAM (Optional)" placeholder="@username" />
@@ -27,9 +27,9 @@ const Form = () => {
 
         <ImageInput label="MEDIA" />
         <Button className="float-end">CREATE</Button>
-      </form>
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Form;
+export default Form

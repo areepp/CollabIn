@@ -3,10 +3,11 @@ import Button from '../../components/button'
 import Layout from '../../layouts/Layout.astro'
 import Content from '../projects/content'
 import ProjectsHeader from '../projects/projects-header'
+import LayoutPageTransition from '../../layouts/LayoutPageTransition.astro'
 ---
 
 <Layout title="My Projects | CollabIn">
-  <main class="bg-text">
+  <LayoutPageTransition className="bg-text">
     <div class="container px-5 py-6 mx-auto">
       <ProjectsHeader subHeaderText="MY PROJECTS" client:load />
       <div class="flex justify-end mr-6">
@@ -16,5 +17,5 @@ import ProjectsHeader from '../projects/projects-header'
       </div>
       <Content />
     </div>
-  </main>
+  </LayoutPageTransition>
 </Layout>

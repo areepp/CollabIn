@@ -1,8 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro'
 import Form from './new'
+import LayoutPageTransition from '../../layouts/LayoutPageTransition.astro'
 ---
 
 <Layout title="CollabIn - Add New Project">
-  <Form />
+  <LayoutPageTransition>
+    <Form />
+  </LayoutPageTransition>
 </Layout>

@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro'
 import Header from '../../components/header'
 import ProjectDetail from './[id]'
 import PROJECTS_DATA from '../../constants/projects.json'
+import LayoutPageTransition from '../../layouts/LayoutPageTransition.astro'
 
 export function getStaticPaths() {
   return PROJECTS_DATA.projects.map((project) => ({
@@ -14,7 +15,7 @@ const { id } = Astro.params
 ---
 
 <Layout title="Projects | CollabIn">
-  <main>
+  <LayoutPageTransition>
     <div class="bg-text">
       <div class="container px-5 py-6 mx-auto">
         <Header
@@ -28,5 +29,5 @@ const { id } = Astro.params
       </div>
     </div>
     <ProjectDetail id={Number(id)} client:load />
-  </main>
+  </LayoutPageTransition>
 </Layout>

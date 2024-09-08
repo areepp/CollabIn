@@ -1,9 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import HomePage from '../components/home-page';
+import Layout from '../layouts/Layout.astro'
+import HomePage from '../components/home-page'
+import LayoutPageTransition from '../layouts/LayoutPageTransition.astro'
 ---
 
 <Layout title="CollabIn - Home">
-	<HomePage />
+  <LayoutPageTransition>
+    <HomePage />
+  </LayoutPageTransition>
 </Layout>
-

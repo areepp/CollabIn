@@ -2,13 +2,14 @@
 import Layout from '../../layouts/Layout.astro'
 import Content from './content'
 import ProjectsHeader from './projects-header'
+import LayoutPageTransition from '../../layouts/LayoutPageTransition.astro'
 ---
 
 <Layout title="Projects | CollabIn">
-  <main class="bg-text">
+  <LayoutPageTransition className="bg-text">
     <div class="container px-5 py-6 mx-auto">
       <ProjectsHeader client:load />
       <Content />
     </div>
-  </main>
+  </LayoutPageTransition>
 </Layout>

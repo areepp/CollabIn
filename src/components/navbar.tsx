@@ -5,18 +5,30 @@ const Navbar = () => {
         <a href="/">CollabIn</a>
       </h3>
       <ul className="flex gap-4 items-center cursor-pointer absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 navbar">
-        <li className="py-1 px-4 hover:bg-text hover:text-background rounded-sm">
-          <a href="/">HOMEPAGE</a>
-        </li>
-        <li className="py-1 px-4 hover:bg-text hover:text-background rounded-sm">
-          <a href="/projects">PROJECTS</a>
-        </li>
-        <li className="py-1 px-4 hover:bg-text hover:text-background rounded-sm">
-          <a href="/my-projects">MY PROJECTS</a>
-        </li>
-        <li className="py-1 px-4 hover:bg-text hover:text-background rounded-sm">
-          <a href="/bookmarks">BOOKMARKS</a>
-        </li>
+        <a
+          href="/"
+          className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
+        >
+          HOMEPAGE
+        </a>
+        <a
+          href="/projects"
+          className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
+        >
+          PROJECTS
+        </a>
+        <a
+          href="/my-projects"
+          className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
+        >
+          MY PROJECTS
+        </a>
+        <a
+          href="/bookmarks"
+          className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
+        >
+          BOOKMARKS
+        </a>
       </ul>
       <div></div>
     </nav>
