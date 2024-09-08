@@ -33,7 +33,7 @@ const ProjectThumbnail = ({
 
 const HomePage = () => {
   return (
-    <main>
+    <>
       <section
         className={`relative z-10 flex items-center justify-center flex-col text-center h-[calc(100vh-64px)] bg-cover bg-center`}
         style={{
@@ -160,7 +160,7 @@ const HomePage = () => {
           </Button>
         </div>
       </section>
-    </main>
+    </>
   )
 }
 

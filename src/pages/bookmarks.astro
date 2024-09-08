@@ -2,13 +2,14 @@
 import Layout from '../layouts/Layout.astro'
 import Content from './projects/content'
 import ProjectsHeader from './projects/projects-header'
+import LayoutPageTransition from '../layouts/LayoutPageTransition.astro'
 ---
 
 <Layout title="Bookmarks | CollabIn">
-  <main class="bg-text">
+  <LayoutPageTransition className="bg-text">
     <div class="container px-5 py-6 mx-auto">
       <ProjectsHeader subHeaderText="BOOKMARKS" client:load />
       <Content />
     </div>
-  </main>
+  </LayoutPageTransition>
 </Layout>
