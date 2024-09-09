@@ -176,8 +176,9 @@ const Menu = ({ isMenuOpen }: MenuProps) => {
             variants={LINK_WRAPPER_VARIANTS}
             initial="initial"
             animate="animate"
-            className="flex h-full flex-col gap-12 px-12 text-text sm:px-24 lg:px-48"
+            className="flex bg-background h-screen flex-col gap-12 px-12 text-text sm:px-24 lg:px-48"
           >
+            
             {NAV_LINKS.map(({ href, title }) => (
               <div key={title} className="overflow-hidden">
                 <motion.h2
@@ -209,7 +210,7 @@ const Navbar = () => {
     <>
       {width < 1024 ? (
         <>
-          <header className="fixed left-0 top-0 z-50 flex h-[80px] w-full items-center bg-background">
+          <header className="fixed inset-x-0 top-0 z-50 flex h-[80px] w-screen items-center bg-background">
             <div className="mb-14 flex h-[30px] w-full items-center justify-between px-4 sm:mb-0 sm:px-8 lg:px-16">
               <a
                 href="/"
