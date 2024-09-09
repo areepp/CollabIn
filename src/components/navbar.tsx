@@ -211,7 +211,7 @@ const Navbar = () => {
       {width < 1024 ? (
         <>
           <header className="fixed inset-x-0 top-0 z-50 flex h-[80px] w-screen items-center bg-background">
-            <div className="mb-14 flex h-[30px] w-full items-center justify-between px-4 sm:mb-0 sm:px-8 lg:px-16">
+            <div className=" flex h-[30px] w-full items-center justify-between px-4 sm:mb-0 sm:px-8 lg:px-16">
               <a
                 href="/"
                 className={clsx(
