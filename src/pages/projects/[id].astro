@@ -4,6 +4,7 @@ import Header from '../../components/header'
 import ProjectDetail from './[id]'
 import PROJECTS_DATA from '../../constants/projects.json'
 import LayoutPageTransition from '../../layouts/LayoutPageTransition.astro'
+import PROJECT_DATA from '../../constants/projects.json'
 
 export function getStaticPaths() {
   return PROJECTS_DATA.projects.map((project) => ({
@@ -12,6 +13,7 @@ export function getStaticPaths() {
 }
 
 const { id } = Astro.params
+const project = PROJECTS_DATA.projects.find(project => project.id === id)
 ---
 
 <Layout title="Projects | CollabIn">
@@ -19,12 +21,13 @@ const { id } = Astro.params
     <div class="bg-text">
       <div class="container px-5 md:py-6 py-3 mx-auto">
         <Header
-          headerText="JUDUL PROJECT"
+          headerText={String(project?.title)}
           text={{
-            first: 'THE AUTHOR',
-            second: 'OPEN FOR CONTRIBUTIONS',
-            third: 'THE CATEGORY',
+            first: String(project?.author),
+            second: project?.is_finished ? 'FINISHED' : 'OPEN FOR CONTRIBUTION',
+            third: String(project?.category),
           }}
+          finished={project?.is_finished && String(project.finished_date)}
         />
       </div>
     </div>
