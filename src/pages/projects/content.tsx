@@ -21,7 +21,7 @@ const ProjectList1 = ({ title, image, description, id }: ProjectProps) => {
         />
       </div>
       <h3 className="font-bold text-4xl">{title}</h3>
-      <p className="font-mono md:text-sm text-xs">{description}</p>
+      <p className="font-mono text-sm">{description}</p>
     </a>
   )
 }
@@ -49,7 +49,7 @@ const ProjectList2 = ({
             className="w-full h-full grayscale-100 object-cover grayscale duration-300 hover:grayscale-0"
           />
         </div>
-        <p className="font-mono md:text-sm text-xs">{description}</p>
+        <p className="font-mono text-sm">{description}</p>
       </a>
     </div>
   )

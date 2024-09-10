@@ -16,7 +16,7 @@ export type HeaderProps = {
 const Header = ({ headerText, subHeaderText, text, onClick }: HeaderProps) => {
   return (
     <div className="flex flex-col bg-text text-background relative">
-      <ul className="flex xl:text-2xl lg:text-base md:text-sm text-xs font-bold z-10">
+      <ul className="flex xl:text-2xl lg:text-base text-sm font-bold z-10">
         <button
           onClick={() => onClick?.first()}
           className={`flex-1 text-start py-2 ${onClick?.first ? 'cursor-pointer' : 'cursor-default'}`}
