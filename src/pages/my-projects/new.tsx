@@ -3,7 +3,7 @@ import { ImageInput, TextArea, TextInput } from '../../components/input'
 
 const Form = () => {
   return (
-    <div className="flex justify-center gap-20 h-[calc(100vh-64px)] items-start pt-[6vw]">
+    <div className="flex justify-center gap-20 h-[calc(100vh-80px)] items-start pt-[6vw]">
       <form action="" className="text-5xl font-extrabold space-y-10">
         <h2>CREATE NEW PROJECT</h2>
         <input

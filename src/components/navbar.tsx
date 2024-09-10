@@ -178,7 +178,6 @@ const Menu = ({ isMenuOpen }: MenuProps) => {
             animate="animate"
             className="flex bg-background h-screen flex-col gap-12 px-12 text-text sm:px-24 lg:px-48"
           >
-            
             {NAV_LINKS.map(({ href, title }) => (
               <div key={title} className="overflow-hidden">
                 <motion.h2
@@ -198,74 +197,44 @@ const Menu = ({ isMenuOpen }: MenuProps) => {
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [width, setWidth] = useState(window.innerWidth)
-
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth)
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
 
   return (
     <>
-      {width < 1024 ? (
-        <>
-          <header className="fixed inset-x-0 top-0 z-50 flex h-[80px] w-screen items-center bg-background">
-            <div className=" flex h-[30px] w-full items-center justify-between px-4 sm:mb-0 sm:px-8 lg:px-16">
-              <a
-                href="/"
-                className={clsx(
-                  'text-3xl font-bold transition duration-500 lg:text-2xl',
-                  isMenuOpen ? 'text-secondary' : 'text-text  '
-                )}
-              >
-                CollabIn
-              </a>
-              <MenuButton
-                isMenuOpen={isMenuOpen}
-                setIsMenuOpen={setIsMenuOpen}
-              />
-            </div>
-          </header>
-          <Menu isMenuOpen={isMenuOpen} />
-        </>
-      ) : (
-        <nav
-          className="py-8 h-[80px] fixed top-0 inset-x-0 z-50 bg-background"
-          id="navbar"
-        >
-          <h3 className="left-10 font-bold text-3xl cursor-pointer mb-4 absolute top-1/2 -translate-y-1/2">
-            <a href="/">CollabIn</a>
-          </h3>
-          <ul className="flex gap-4 items-center cursor-pointer absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 navbar">
+      <header className="fixed lg:hidden inset-x-0 top-0 z-50 flex h-[80px] w-screen items-center bg-background">
+        <div className=" flex h-[30px] w-full items-center justify-between px-4 sm:mb-0 sm:px-8 lg:px-16 z-50">
+          <a
+            href="/"
+            className={clsx(
+              'text-3xl font-bold transition duration-500 lg:text-2xl',
+              isMenuOpen ? 'text-secondary' : 'text-text  '
+            )}
+          >
+            CollabIn
+          </a>
+          <MenuButton isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+        </div>
+        <Menu isMenuOpen={isMenuOpen} />
+      </header>
+
+      <nav
+        className="py-8 h-[80px] hidden lg:block fixed top-0 inset-x-0 z-50 bg-background"
+        id="navbar"
+      >
+        <h3 className="left-10 font-bold text-3xl cursor-pointer mb-4 absolute top-1/2 -translate-y-1/2">
+          <a href="/">CollabIn</a>
+        </h3>
+        <ul className="flex gap-4 items-center cursor-pointer absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 navbar">
+          {NAV_LINKS.map((nav) => (
             <a
-              href="/"
+              href={nav.href}
               className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
             >
-              HOMEPAGE
+              {nav.title}
             </a>
-            <a
-              href="/projects"
-              className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
-            >
-              PROJECTS
-            </a>
-            <a
-              href="/my-projects"
-              className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
-            >
-              MY PROJECTS
-            </a>
-            <a
-              href="/bookmarks"
-              className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
-            >
-              BOOKMARKS
-            </a>
-          </ul>
-          <div></div>
-        </nav>
-      )}
+          ))}
+        </ul>
+        <div></div>
+      </nav>
     </>
   )
 }
