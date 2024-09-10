@@ -40,13 +40,18 @@ const Header = ({ headerText, subHeaderText, text, onClick }: HeaderProps) => {
       <div className="w-max mx-auto font-extrabold">
         {subHeaderText && (
           <div>
-            <div className="flex gap-4 mt-5 justify-between items-center">
-              <h2 className="text-5xl">{subHeaderText}</h2>
-              <hr className="bg-background h-1 flex-1" />
+            <div className="flex sm:gap-4 gap-1 md:mt-5 mt-2 justify-between items-center">
+              <h2 className="md:text-5xl sm:text-3xl text-lg">
+                {subHeaderText}
+              </h2>
+              <hr className="bg-background sm:h-1 h-0.5 flex-1" />
             </div>
           </div>
         )}
-        <h2 className="text-center sm:text-9xl text-5xl">{headerText}</h2>
+
+        <h2 className="text-center xl:text-9xl md:text-7xl sm:text-6xl text-3xl mb-2">
+          {headerText}
+        </h2>
       </div>
     </div>
   )

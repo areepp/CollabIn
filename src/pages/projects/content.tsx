@@ -11,7 +11,7 @@ const ProjectList1 = ({ title, image, description, id }: ProjectProps) => {
   return (
     <a
       href={`/projects/${id}`}
-      className={`relative flex flex-col gap-1 px-6 cursor-pointer text-background first:after:content-[""] first:after:absolute first:after:w-1 first:after:h-[200vh] first:after:bg-background first:after:right-0`}
+      className={`relative flex flex-col gap-1 px-6 cursor-pointer text-background first:after:content-[""] first:after:absolute first:after:w-1 lg:first:after:h-[200vh] first:after:bg-background first:after:right-0`}
     >
       <div className="w-full h-[250px] mx-auto">
         <img
@@ -21,7 +21,7 @@ const ProjectList1 = ({ title, image, description, id }: ProjectProps) => {
         />
       </div>
       <h3 className="font-bold text-4xl">{title}</h3>
-      <p className="font-mono text-sm">{description}</p>
+      <p className="font-mono md:text-sm text-xs">{description}</p>
     </a>
   )
 }
@@ -35,7 +35,7 @@ const ProjectList2 = ({
 }: ProjectProps) => {
   return (
     <div
-      className={`px-6 relative ${index === 1 ? 'after:content-[""] after:absolute after:w-1 after:h-[200vh] after:bg-background after:right-0 after:top-0' : ''}`}
+      className={`px-6 relative ${index === 1 ? 'after:content-[""] after:absolute after:w-1 lg:after:h-[200vh] after:bg-background after:right-0 after:top-0' : ''}`}
     >
       <a
         href={`/projects/${id}`}
@@ -49,7 +49,7 @@ const ProjectList2 = ({
             className="w-full h-full grayscale-100 object-cover grayscale duration-300 hover:grayscale-0"
           />
         </div>
-        <p className="font-mono text-sm">{description}</p>
+        <p className="font-mono md:text-sm text-xs">{description}</p>
       </a>
     </div>
   )
@@ -57,7 +57,7 @@ const ProjectList2 = ({
 
 const Content = () => {
   return (
-    <div className="mt-12 mb-24 grid grid-cols-3 gap-y-6 overflow-hidden">
+    <div className="mt-3 mb-24 grid lg:grid-cols-3 md:grid-cols-2 gap-y-6 overflow-hidden">
       {PROJECTS_JSON.projects.map((project, index) => {
         if (index % 2 === 0)
           return (
