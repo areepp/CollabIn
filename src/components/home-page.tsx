@@ -35,7 +35,7 @@ const HomePage = () => {
   return (
     <>
       <section
-        className={`relative z-10 flex items-center justify-center flex-col text-center h-[calc(100vh-64px)] bg-cover bg-center`}
+        className={`relative z-10 flex items-center justify-center flex-col text-center h-[calc(100vh-80px)] bg-cover bg-center`}
         style={{
           backgroundImage: 'url("/index-main-background.png")',
         }}
@@ -53,7 +53,7 @@ const HomePage = () => {
         </div>
       </section>
       <section className="relative">
-        <img src="/wave-1.svg" className="w-screen top-0 inset-x-0 -mt-2" />
+        <img src="/wave-1.svg" className="w-full top-0 inset-x-0 -mt-2" />
         <div className="container px-32 mx-auto">
           <div className="flex items-center gap-12">
             <div>
@@ -104,7 +104,7 @@ const HomePage = () => {
         </div>
       </section>
       <section className="bg-text text-background">
-        <img src="/wave-2.svg" className="w-screen mt-12" />
+        <img src="/wave-2.svg" className="w-full mt-12" />
         <div className="container px-32 pb-0 mx-auto">
           <h2 className="text-9xl font-extrabold text-secondary pl-8">
             PROJECTS
@@ -144,7 +144,7 @@ const HomePage = () => {
       </section>
       <section className="bg-background text-text flex items-center justify-center relative">
         <div className="flex flex-col text-center absolute pb-24 gap-6 -top-2 items-center">
-          <img src="/wave-3.svg" className="w-screen -top-10" />
+          <img src="/wave-3.svg" className="w-full -top-10" />
           <div className="max-w-xl space-y-3">
             <h2 className="text-8xl font-extrabold text-secondary max-w-xl ">
               FIND YOUR NEXT COLLABORATOR TODAY
