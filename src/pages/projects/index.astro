@@ -8,8 +8,8 @@ import LayoutPageTransition from '../../layouts/LayoutPageTransition.astro'
 <Layout title="Projects | CollabIn">
   <LayoutPageTransition className="bg-text">
     <div class="container px-5 md:py-6 py-3 mx-auto">
-      <ProjectsHeader client:load />
-      <Content />
+      <ProjectsHeader addProject={false} client:load />
+
     </div>
   </LayoutPageTransition>
 </Layout>

@@ -8,8 +8,8 @@ import LayoutPageTransition from '../layouts/LayoutPageTransition.astro'
 <Layout title="Bookmarks | CollabIn">
   <LayoutPageTransition className="bg-text">
     <div class="container px-5 md:py-6 py-3 mx-auto">
-      <ProjectsHeader subHeaderText="BOOKMARKS" client:load />
-      <Content />
+      <ProjectsHeader subHeaderText="BOOKMARKS" addProject={false} client:load />
+
     </div>
   </LayoutPageTransition>
 </Layout>

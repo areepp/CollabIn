@@ -1,4 +1,5 @@
 import PROJECTS_JSON from './../../constants/projects.json'
+
 type ProjectProps = {
   title: string
   image: string
@@ -55,33 +56,54 @@ const ProjectList2 = ({
   )
 }
 
-const Content = () => {
+type ContentProps = {
+  filter: string
+}
+
+const Content = ({ filter }: ContentProps) => {
+  const filteredProjects = PROJECTS_JSON.projects.filter((project) => {
+    switch (filter) {
+      case 'all_projects':
+        return true
+      case 'open_for_contributions':
+        return project.is_finished === false
+      case 'finished':
+        return project.is_finished === true
+      default:
+        return false
+    }
+  })
+
   return (
     <div className="mt-3 mb-24 grid lg:grid-cols-3 md:grid-cols-2 gap-y-6 overflow-hidden">
-      {PROJECTS_JSON.projects.map((project, index) => {
-        if (index % 2 === 0)
-          return (
-            <ProjectList1
-              key={project.id}
-              id={project.id}
-              description={project.description.slice(0, 300) + '...'}
-              image={project.media[0]}
-              title={project.title}
-            />
-          )
+      {filteredProjects.length > 0 ? (
+        filteredProjects.map((project, index) => {
+          if (index % 2 === 0)
+            return (
+              <ProjectList1
+                key={project.id}
+                id={project.id}
+                description={project.description.slice(0, 300) + '...'}
+                image={project.media[0]}
+                title={project.title}
+              />
+            )
 
-        if (index % 2 === 1)
-          return (
-            <ProjectList2
-              key={project.id}
-              id={project.id}
-              description={project.description.slice(0, 190) + '...'}
-              image={project.media[0]}
-              title={project.title}
-              index={index}
-            />
-          )
-      })}
+          if (index % 2 === 1)
+            return (
+              <ProjectList2
+                key={project.id}
+                id={project.id}
+                description={project.description.slice(0, 190) + '...'}
+                image={project.media[0]}
+                title={project.title}
+                index={index}
+              />
+            )
+        })
+      ) : (
+        <p>No projects found for the selected filter.</p>
+      )}
     </div>
   )
 }
