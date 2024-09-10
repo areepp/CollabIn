@@ -11,7 +11,7 @@ const ProjectList1 = ({ title, image, description, id }: ProjectProps) => {
   return (
     <a
       href={`/projects/${id}`}
-      className={`relative flex flex-col gap-1 px-6 cursor-pointer text-background first:after:content-[""] first:after:absolute first:after:w-1 lg:first:after:h-[200vh] first:after:bg-background first:after:right-0`}
+      className={`relative flex flex-col gap-1 px-6 cursor-pointer text-background first:after:content-[""] first:after:absolute first:after:w-1 lg:first:after:h-[400vh] first:after:bg-background first:after:right-0`}
     >
       <div className="w-full h-[250px] mx-auto">
         <img
@@ -35,7 +35,7 @@ const ProjectList2 = ({
 }: ProjectProps) => {
   return (
     <div
-      className={`px-6 relative ${index === 1 ? 'after:content-[""] after:absolute after:w-1 lg:after:h-[200vh] after:bg-background after:right-0 after:top-0' : ''}`}
+      className={`px-6 relative ${index === 1 ? 'after:content-[""] after:absolute after:w-1 lg:after:h-[400vh] after:bg-background after:right-0 after:top-0' : ''}`}
     >
       <a
         href={`/projects/${id}`}

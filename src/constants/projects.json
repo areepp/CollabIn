@@ -2,18 +2,28 @@
   "projects": [
     {
       "id": "1",
-      "title": "Project One",
+      "title": "Music Exploration",
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
-      "category": "music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "category": "Music",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "instagram_username": "mferdinr",
       "media": [
         "/project-image-3.png",
-        "/project-image-5.png",
-        "/project-image-6.png"
+        "/project-image-2.png",
+        "/project-image-3.png"
       ],
-      "job_description": "ini gini gitu wak",
+      "job_description": [
+        "Composed and arranged original music pieces tailored for various genres and styles.",
+        "Coordinated with musicians and vocalists to record and produce high-quality tracks.",
+        "Developed a comprehensive music exploration curriculum to educate participants on different musical styles and techniques.",
+        "Created detailed notes and guides on musical theory and practice to support the learning process.",
+        "Organized and managed music workshops and live sessions to showcase project outcomes.",
+        "Evaluated participant progress and provided constructive feedback to improve their musical skills.",
+        "Utilized digital audio workstations (DAWs) and other music production tools to enhance the quality of recordings.",
+        "Collaborated with graphic designers to create promotional materials for the project.",
+        "Maintained an organized library of recorded sessions, compositions, and related media."
+      ],
       "finished_date": "20-07-2024",
       "contributors": ["ahmad sri", "sri tayu"],
       "is_my_project": false,
@@ -21,18 +31,26 @@
     },
     {
       "id": "2",
-      "title": "Project Two",
+      "title": "Website Development 101",
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
-      "category": "web",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "category": "Website",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "instagram_username": "arifamjy",
       "media": [
         "/project-image-2.png",
         "/project-image-5.png",
         "/project-image-6.png"
       ],
-      "job_description": "terbang dan berenang",
+      "job_description": [
+        "Designed and developed the core structure of a Website development course including modules and learning objectives.",
+        "Created interactive Website development tutorials covering HTML, CSS, and JavaScript basics.",
+        "Developed coding exercises and projects to reinforce learning and provide hands-on experience.",
+        "Set up an online learning platform with user-friendly navigation and resources.",
+        "Facilitated live coding sessions and Q&A forums to assist students with their learning process.",
+        "Managed course content updates and incorporated feedback to improve course delivery.",
+        "Collaborated with industry experts to ensure content relevancy and accuracy."
+      ],
       "finished_date": null,
       "contributors": [],
       "is_my_project": true,
@@ -40,18 +58,25 @@
     },
     {
       "id": "3",
-      "title": "Project Three",
+      "title": "Video Creation Mastery",
       "email": "ferdinr@gmail.com",
       "is_finished": false,
-      "category": "video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "category": "Video",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "instagram_username": "feridnoke",
       "media": [
         "/project-image-1.png",
-        "/project-image-5.png",
-        "/project-image-6.png"
+        "/project-image-2.png",
+        "/project-image-2.png"
       ],
-      "job_description": "Membuat video",
+      "job_description": [
+        "Produced and edited high-quality video content focusing on advanced video creation techniques.",
+        "Developed video tutorials and guides on various aspects of video production including shooting, editing, and special effects.",
+        "Collaborated with video editors and graphic designers to create visually appealing and engaging content.",
+        "Managed project timelines and coordinated with team members to ensure timely completion of video projects.",
+        "Implemented feedback from viewers to refine video content and improve instructional quality.",
+        "Utilized advanced video editing software and tools to enhance video quality and production value."
+      ],
       "finished_date": null,
       "contributors": [],
       "is_my_project": false,
@@ -59,18 +84,24 @@
     },
     {
       "id": "4",
-      "title": "Project One",
+      "title": "Advanced Music Composition",
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
-      "category": "music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "category": "Music",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "instagram_username": "mferdinr",
       "media": [
-        "/project-image-3.png",
-        "/project-image-5.png",
-        "/project-image-6.png"
+        "/project-image-1.png",
+        "/project-image-2.png",
+        "/project-image-5.png"
       ],
-      "job_description": "ini gini gitu wak",
+      "job_description": [
+        "Composed and orchestrated complex musical compositions for various ensembles and performances.",
+        "Utilized advanced music theory and composition techniques to create innovative and engaging pieces.",
+        "Collaborated with musicians and conductors to refine compositions and prepare them for live performances.",
+        "Organized and led workshops on advanced composition techniques for aspiring composers.",
+        "Produced detailed score sheets and parts for musicians, ensuring accuracy and clarity in the performance."
+      ],
       "finished_date": "20-07-2024",
       "contributors": ["ahmad sri", "sri tayu"],
       "is_my_project": false,
@@ -78,18 +109,24 @@
     },
     {
       "id": "5",
-      "title": "Project Two",
+      "title": "Innovative Website Design",
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
-      "category": "web",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "category": "Website",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "instagram_username": "arifamjy",
       "media": [
+        "/project-image-3.png",
         "/project-image-2.png",
-        "/project-image-5.png",
         "/project-image-6.png"
       ],
-      "job_description": "terbang dan berenang",
+      "job_description": [
+        "Developed innovative Website design concepts focusing on user experience and visual aesthetics.",
+        "Created wireframes and mockups to present design ideas and layout options.",
+        "Utilized modern Website design tools and technologies to implement responsive and interactive design elements.",
+        "Conducted usability testing to ensure designs meet user needs and expectations.",
+        "Collaborated with developers to integrate design elements into functional Website pages."
+      ],
       "finished_date": null,
       "contributors": [],
       "is_my_project": true,
@@ -97,18 +134,24 @@
     },
     {
       "id": "6",
-      "title": "Project Three",
+      "title": "Ultimate Video Editing",
       "email": "ferdinr@gmail.com",
       "is_finished": false,
-      "category": "video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "category": "Video",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "instagram_username": "feridnoke",
       "media": [
-        "/project-image-1.png",
-        "/project-image-5.png",
-        "/project-image-6.png"
+        "/project-image-2.png",
+        "/project-image-2.png",
+        "/project-image-5.png"
       ],
-      "job_description": "Membuat video",
+      "job_description": [
+        "Edited high-definition video footage, incorporating advanced editing techniques to enhance visual storytelling.",
+        "Created engaging video content with the use of motion graphics, special effects, and transitions.",
+        "Managed video project workflows, including file organization, editing, and final rendering.",
+        "Collaborated with directors and content creators to ensure alignment with project goals and vision.",
+        "Implemented feedback to refine video edits and meet client or project specifications."
+      ],
       "finished_date": null,
       "contributors": [],
       "is_my_project": false,
@@ -116,60 +159,292 @@
     },
     {
       "id": "7",
-      "title": "Project One",
+      "title": "Music Project Revisited",
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
-      "category": "music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "category": "Music",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "instagram_username": "mferdinr",
       "media": [
+        "/project-image-1.png",
         "/project-image-3.png",
-        "/project-image-5.png",
         "/project-image-6.png"
       ],
-      "job_description": "ini gini gitu wak",
+      "job_description": [
+        "Revised and enhanced previous music projects with updated compositions and arrangements.",
+        "Incorporated feedback and new ideas into the project to improve overall quality and impact.",
+        "Managed the project timeline and ensured all revisions were completed on schedule.",
+        "Coordinated with other musicians and producers to integrate new elements into the project."
+      ],
       "finished_date": "20-07-2024",
       "contributors": ["ahmad sri", "sri tayu"],
-      "is_my_project": true,
-      "author": "Jennifer Brown"
+      "is_my_project": false,
+      "author": "Anna White"
     },
     {
       "id": "8",
-      "title": "Project Two",
+      "title": "Cutting-Edge Website Features",
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
-      "category": "web",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "category": "Website",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "instagram_username": "arifamjy",
+      "media": [
+        "/project-image-1.png",
+        "/project-image-3.png",
+        "/project-image-5.png"
+      ],
+      "job_description": [
+        "Developed and integrated cutting-edge features into existing Website applications to enhance functionality and user experience.",
+        "Utilized modern programming languages and frameworks to implement new functionalities.",
+        "Conducted thorough testing and debugging to ensure feature stability and performance.",
+        "Collaborated with designers and developers to ensure seamless integration of new features."
+      ],
+      "finished_date": null,
+      "contributors": [],
+      "is_my_project": true,
+      "author": "Daniel Park"
+    },
+    {
+      "id": "9",
+      "title": "Creative Video Concepts",
+      "email": "ferdinr@gmail.com",
+      "is_finished": false,
+      "category": "Video",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "instagram_username": "feridnoke",
+      "media": [
+        "/project-image-2.png",
+        "/project-image-6.png",
+        "/project-image-1.png"
+      ],
+      "job_description": [
+        "Developed creative concepts and storylines for video projects to engage and captivate audiences.",
+        "Worked with scriptwriters and directors to develop compelling narratives and visual elements.",
+        "Utilized advanced video production techniques to bring creative concepts to life.",
+        "Coordinated with team members to ensure all elements of the video project aligned with the creative vision."
+      ],
+      "finished_date": null,
+      "contributors": [],
+      "is_my_project": false,
+      "author": "Laura Martinez"
+    },
+    {
+      "id": "10",
+      "title": "Music Production Essentials",
+      "email": "mohferdinandramdhani@student.uns.ac.id",
+      "is_finished": true,
+      "category": "Music",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "instagram_username": "mferdinr",
+      "media": [
+        "/project-image-2.png",
+        "/project-image-5.png",
+        "/project-image-6.png"
+      ],
+      "job_description": [
+        "Designed and delivered a comprehensive course on essential music production techniques and tools.",
+        "Created instructional materials covering topics such as audio recording, mixing, and mastering.",
+        "Conducted hands-on workshops to demonstrate key production techniques and provide practical experience.",
+        "Provided feedback and support to participants to help them apply learned techniques effectively."
+      ],
+      "finished_date": "20-07-2024",
+      "contributors": ["ahmad sri", "sri tayu"],
+      "is_my_project": false,
+      "author": "James Lee"
+    },
+    {
+      "id": "11",
+      "title": "Website Design Innovation",
+      "email": "arifamijoyo@student.uns.ac.id",
+      "is_finished": false,
+      "category": "Website",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "instagram_username": "arifamjy",
       "media": [
         "/project-image-2.png",
         "/project-image-5.png",
         "/project-image-6.png"
       ],
-      "job_description": "terbang dan berenang",
+      "job_description": [
+        "Developed innovative Website design solutions focusing on enhancing user engagement and functionality.",
+        "Created and tested design prototypes to explore new ideas and approaches.",
+        "Collaborated with developers to implement new design features and ensure seamless integration.",
+        "Gathered and analyzed user feedback to refine design concepts and improve overall user experience."
+      ],
+      "finished_date": null,
+      "contributors": [],
+      "is_my_project": true,
+      "author": "Emily Davis"
+    },
+    {
+      "id": "12",
+      "title": "Next-Level Video Production",
+      "email": "ferdinr@gmail.com",
+      "is_finished": false,
+      "category": "Video",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "instagram_username": "feridnoke",
+      "media": [
+        "/project-image-3.png",
+        "/project-image-2.png",
+        "/project-image-6.png"
+      ],
+      "job_description": [
+        "Produced high-quality video content using advanced filming and editing techniques.",
+        "Developed new production workflows to enhance efficiency and video quality.",
+        "Collaborated with creative teams to develop engaging and impactful video projects.",
+        "Implemented new technologies and tools to elevate video production standards."
+      ],
       "finished_date": null,
       "contributors": [],
       "is_my_project": false,
-      "author": "Christopher Wong"
+      "author": "Natalie Young"
     },
     {
-      "id": "9",
-      "title": "Project Three",
+      "id": "13",
+      "title": "Music Experience Enhancement",
+      "email": "mohferdinandramdhani@student.uns.ac.id",
+      "is_finished": true,
+      "category": "Music",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "instagram_username": "mferdinr",
+      "media": [
+        "/project-image-1.png",
+        "/project-image-3.png",
+        "/project-image-6.png"
+      ],
+      "job_description": [
+        "Enhanced music experiences through innovative techniques and interactive elements.",
+        "Developed engaging music-related activities and workshops to increase participant engagement.",
+        "Collaborated with music professionals to integrate new approaches into the music experience.",
+        "Gathered feedback to assess the impact of enhancements and make necessary adjustments."
+      ],
+      "finished_date": "20-07-2024",
+      "contributors": ["ahmad sri", "sri tayu"],
+      "is_my_project": false,
+      "author": "Olivia Martinez"
+    },
+    {
+      "id": "14",
+      "title": "Advanced Website Technologies",
+      "email": "arifamijoyo@student.uns.ac.id",
+      "is_finished": false,
+      "category": "Website",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "instagram_username": "arifamjy",
+      "media": [
+        "/project-image-1.png",
+        "/project-image-2.png",
+        "/project-image-2.png"
+      ],
+      "job_description": [
+        "Explored and implemented advanced Website technologies to improve Website functionality and performance.",
+        "Developed custom Website applications and features using cutting-edge technologies.",
+        "Collaborated with cross-functional teams to integrate new technologies into existing systems.",
+        "Conducted thorough testing to ensure compatibility and performance across various platforms."
+      ],
+      "finished_date": null,
+      "contributors": [],
+      "is_my_project": true,
+      "author": "Jason Walker"
+    },
+    {
+      "id": "15",
+      "title": "Video Editing Essentials",
       "email": "ferdinr@gmail.com",
       "is_finished": false,
-      "category": "video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "category": "Video",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       "instagram_username": "feridnoke",
       "media": [
         "/project-image-1.png",
-        "/project-image-5.png",
-        "/project-image-6.png"
+        "/project-image-3.png",
+        "/project-image-5.png"
       ],
-      "job_description": "Membuat video",
+      "job_description": [
+        "Provided a comprehensive guide to essential video editing techniques and tools.",
+        "Created tutorial content covering various aspects of video editing including cutting, transitions, and effects.",
+        "Facilitated hands-on workshops to allow participants to practice and refine their editing skills.",
+        "Offered one-on-one support and feedback to help participants enhance their editing abilities."
+      ],
       "finished_date": null,
       "contributors": [],
       "is_my_project": false,
-      "author": "Amanda Garcia"
+      "author": "Sophie Lewis"
+    },
+    {
+      "id": "16",
+      "title": "Music Production Workshop",
+      "email": "mohferdinandramdhani@student.uns.ac.id",
+      "is_finished": true,
+      "category": "Music",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "instagram_username": "mferdinr",
+      "media": [
+        "/project-image-2.png",
+        "/project-image-2.png",
+        "/project-image-5.png"
+      ],
+      "job_description": [
+        "Organized and led a workshop focused on essential skills and techniques in music production.",
+        "Developed workshop content including presentations, exercises, and practical demonstrations.",
+        "Provided guidance and support to participants throughout the workshop to enhance their learning experience.",
+        "Collected feedback to evaluate the effectiveness of the workshop and make improvements for future sessions."
+      ],
+      "finished_date": "20-07-2024",
+      "contributors": ["ahmad sri", "sri tayu"],
+      "is_my_project": false,
+      "author": "Liam Brown"
+    },
+    {
+      "id": "17",
+      "title": "Interactive Website Experience",
+      "email": "arifamijoyo@student.uns.ac.id",
+      "is_finished": false,
+      "category": "Website",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "instagram_username": "arifamjy",
+      "media": [
+        "/project-image-3.png",
+        "/project-image-2.png",
+        "/project-image-6.png"
+      ],
+      "job_description": [
+        "Designed and developed interactive Website experiences to engage users and enhance Website functionality.",
+        "Created interactive elements such as animations, dynamic content, and user interfaces.",
+        "Utilized modern Website technologies to implement interactive features and improve user engagement.",
+        "Tested and refined interactive elements to ensure optimal performance across various devices and browsers."
+      ],
+      "finished_date": null,
+      "contributors": [],
+      "is_my_project": true,
+      "author": "Natalie Green"
+    },
+    {
+      "id": "18",
+      "title": "Wellness Program Development",
+      "email": "lily@example.com",
+      "is_finished": false,
+      "category": "Health",
+      "description": "A health project aimed at creating a wellness program for stress management. The project includes designing workshops, exercises, and resources.",
+      "instagram_username": "lilywellness",
+      "media": [
+        "/project-image-3.png",
+        "/project-image-2.png",
+        "/project-image-6.png"
+      ],
+      "job_description": [
+        "Developed a comprehensive wellness program focused on stress management and overall well-being.",
+        "Designed and implemented workshops covering various techniques for stress reduction and relaxation.",
+        "Created a range of resources including guides, exercises, and tools to support stress management practices.",
+        "Facilitated wellness sessions and provided one-on-one support to program participants.",
+        "Monitored and evaluated program effectiveness and made adjustments based on participant feedback."
+      ],
+      "finished_date": null,
+      "contributors": ["Lily Adams"],
+      "is_my_project": true,
+      "author": "Lily Adams"
     }
   ]
 }
