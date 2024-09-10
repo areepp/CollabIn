@@ -3,18 +3,21 @@ import { ImageInput, TextArea, TextInput } from '../../components/input'
 
 const Form = () => {
   return (
-    <div className="flex justify-center gap-20 h-[calc(100vh-80px)] items-start pt-[6vw]">
-      <form action="" className="text-5xl font-extrabold space-y-10">
+    <div className="flex md:flex-row flex-col lg:justify-center md:justify-between lg:gap-20 gap-8 h-[calc(100vh-80px)] items-start lg:pt-[6vw] md:pt-12 pt-5 lg:px-12 px-8">
+      <form
+        action=""
+        className="lg:text-5xl md:text-4xl text-2xl font-extrabold lg:space-y-10 space-y-6 w-full md:w-max"
+      >
         <h2>CREATE NEW PROJECT</h2>
         <input
           type="text"
           placeholder="PROJECT NAME"
-          className="bg-background text-secondary placeholder-secondary focus:outline-none focus:border-text border-b-2 w-5/6"
+          className="bg-background text-secondary placeholder-secondary focus:outline-none focus:border-text border-b-2 lg:w-5/6 w-full"
         />
       </form>
 
-      <div className="space-y-6">
-        <div className="flex gap-16">
+      <div className="space-y-6 w-full md:w-max">
+        <div className="flex md:flex-row flex-col md:gap-16 gap-5">
           <TextInput label="CATEGORY" placeholder="music, platform, etc" />
           <TextInput label="INSTAGRAM (Optional)" placeholder="@username" />
         </div>
@@ -25,8 +28,10 @@ const Form = () => {
           placeholder="This responsibility for project is....."
         />
 
-        <ImageInput label="MEDIA" />
-        <Button className="float-end">CREATE</Button>
+        <div className="space-y-3">
+          <ImageInput label="MEDIA" />
+          <Button className="float-end">CREATE</Button>
+        </div>
       </div>
     </div>
   )
