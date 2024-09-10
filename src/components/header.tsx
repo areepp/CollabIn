@@ -37,10 +37,10 @@ const Header = ({ headerText, subHeaderText, text, onClick }: HeaderProps) => {
         </button>
       </ul>
       <hr className="bg-background h-1" />
-      <div className="w-max mx-auto font-extrabold">
+      <div className="w-max mx-auto font-extrabold mt-2">
         {subHeaderText && (
           <div>
-            <div className="flex sm:gap-4 gap-1 md:mt-5 mt-2 justify-between items-center">
+            <div className="flex sm:gap-4 gap-1 md:mt-3 justify-between items-center">
               <h2 className="md:text-5xl sm:text-3xl text-lg">
                 {subHeaderText}
               </h2>
