@@ -3,15 +3,29 @@
     {
       "id": "1",
       "title": "Music Exploration",
+      "title": "Music Exploration",
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "Music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "This project dives into the rich history and evolution of music. It explores various genres, influential artists, and the technological advancements that have shaped the music industry over centuries. From classical compositions to modern electronic beats, this project covers it all, aiming to give a comprehensive overview of music's impact on culture and society.",
       "instagram_username": "mferdinr",
       "media": [
         "/project-image-3.png",
         "/project-image-2.png",
         "/project-image-3.png"
+        "/project-image-2.png",
+        "/project-image-3.png"
+      ],
+      "job_description": [
+        "Composed and arranged original music pieces tailored for various genres and styles.",
+        "Coordinated with musicians and vocalists to record and produce high-quality tracks.",
+        "Developed a comprehensive music exploration curriculum to educate participants on different musical styles and techniques.",
+        "Created detailed notes and guides on musical theory and practice to support the learning process.",
+        "Organized and managed music workshops and live sessions to showcase project outcomes.",
+        "Evaluated participant progress and provided constructive feedback to improve their musical skills.",
+        "Utilized digital audio workstations (DAWs) and other music production tools to enhance the quality of recordings.",
+        "Collaborated with graphic designers to create promotional materials for the project.",
+        "Maintained an organized library of recorded sessions, compositions, and related media."
       ],
       "job_description": [
         "Composed and arranged original music pieces tailored for various genres and styles.",
@@ -31,11 +45,11 @@
     },
     {
       "id": "2",
-      "title": "Website Development 101",
+      "title": "Web Development 101",
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "Website",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "A beginner-friendly guide to web development that covers the fundamental technologies and practices. The project includes hands-on tutorials on HTML, CSS, and JavaScript, offering practical exercises to build basic websites. Perfect for those new to web development, this project provides a solid foundation to start creating web-based applications.",
       "instagram_username": "arifamjy",
       "media": [
         "/project-image-2.png",
@@ -43,8 +57,8 @@
         "/project-image-6.png"
       ],
       "job_description": [
-        "Designed and developed the core structure of a Website development course including modules and learning objectives.",
-        "Created interactive Website development tutorials covering HTML, CSS, and JavaScript basics.",
+        "Designed and developed the core structure of a web development course including modules and learning objectives.",
+        "Created interactive web development tutorials covering HTML, CSS, and JavaScript basics.",
         "Developed coding exercises and projects to reinforce learning and provide hands-on experience.",
         "Set up an online learning platform with user-friendly navigation and resources.",
         "Facilitated live coding sessions and Q&A forums to assist students with their learning process.",
@@ -59,15 +73,26 @@
     {
       "id": "3",
       "title": "Video Creation Mastery",
+      "title": "Video Creation Mastery",
       "email": "ferdinr@gmail.com",
       "is_finished": false,
       "category": "Video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "This project focuses on mastering the art of video creation, from concept development to final editing. It includes detailed lessons on scripting, storyboarding, shooting techniques, and post-production processes. Ideal for aspiring videographers and content creators, this project helps in developing skills to produce professional-quality videos.",
       "instagram_username": "feridnoke",
       "media": [
         "/project-image-1.png",
         "/project-image-2.png",
         "/project-image-2.png"
+        "/project-image-2.png",
+        "/project-image-2.png"
+      ],
+      "job_description": [
+        "Produced and edited high-quality video content focusing on advanced video creation techniques.",
+        "Developed video tutorials and guides on various aspects of video production including shooting, editing, and special effects.",
+        "Collaborated with video editors and graphic designers to create visually appealing and engaging content.",
+        "Managed project timelines and coordinated with team members to ensure timely completion of video projects.",
+        "Implemented feedback from viewers to refine video content and improve instructional quality.",
+        "Utilized advanced video editing software and tools to enhance video quality and production value."
       ],
       "job_description": [
         "Produced and edited high-quality video content focusing on advanced video creation techniques.",
@@ -85,15 +110,26 @@
     {
       "id": "4",
       "title": "Advanced Music Composition",
+      "title": "Advanced Music Composition",
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "Music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "An in-depth exploration of advanced techniques in music composition. This project delves into complex musical structures, innovative compositional methods, and the integration of technology in music creation. It aims to elevate the skills of experienced composers and provide new tools and techniques for crafting sophisticated musical pieces.",
       "instagram_username": "mferdinr",
       "media": [
         "/project-image-1.png",
         "/project-image-2.png",
         "/project-image-5.png"
+        "/project-image-1.png",
+        "/project-image-2.png",
+        "/project-image-5.png"
+      ],
+      "job_description": [
+        "Composed and orchestrated complex musical compositions for various ensembles and performances.",
+        "Utilized advanced music theory and composition techniques to create innovative and engaging pieces.",
+        "Collaborated with musicians and conductors to refine compositions and prepare them for live performances.",
+        "Organized and led workshops on advanced composition techniques for aspiring composers.",
+        "Produced detailed score sheets and parts for musicians, ensuring accuracy and clarity in the performance."
       ],
       "job_description": [
         "Composed and orchestrated complex musical compositions for various ensembles and performances.",
@@ -109,23 +145,24 @@
     },
     {
       "id": "5",
-      "title": "Innovative Website Design",
+      "title": "Innovative Web Design",
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "Website",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "Focused on the latest trends and techniques in web design, this project explores innovative approaches to creating visually stunning and highly functional websites. It covers advanced design principles, user experience optimization, and the use of cutting-edge tools to create responsive and interactive web designs.",
       "instagram_username": "arifamjy",
       "media": [
+        "/project-image-3.png",
         "/project-image-3.png",
         "/project-image-2.png",
         "/project-image-6.png"
       ],
       "job_description": [
-        "Developed innovative Website design concepts focusing on user experience and visual aesthetics.",
+        "Developed innovative web design concepts focusing on user experience and visual aesthetics.",
         "Created wireframes and mockups to present design ideas and layout options.",
-        "Utilized modern Website design tools and technologies to implement responsive and interactive design elements.",
+        "Utilized modern web design tools and technologies to implement responsive and interactive design elements.",
         "Conducted usability testing to ensure designs meet user needs and expectations.",
-        "Collaborated with developers to integrate design elements into functional Website pages."
+        "Collaborated with developers to integrate design elements into functional web pages."
       ],
       "finished_date": null,
       "contributors": [],
@@ -135,15 +172,26 @@
     {
       "id": "6",
       "title": "Ultimate Video Editing",
+      "title": "Ultimate Video Editing",
       "email": "ferdinr@gmail.com",
       "is_finished": false,
       "category": "Video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": " This project offers comprehensive training on video editing techniques, including color correction, sound design, and special effects. It provides step-by-step tutorials on using industry-standard software to enhance video projects, making it a valuable resource for both beginners and experienced editors looking to refine their skills.",
       "instagram_username": "feridnoke",
       "media": [
         "/project-image-2.png",
         "/project-image-2.png",
         "/project-image-5.png"
+        "/project-image-2.png",
+        "/project-image-2.png",
+        "/project-image-5.png"
+      ],
+      "job_description": [
+        "Edited high-definition video footage, incorporating advanced editing techniques to enhance visual storytelling.",
+        "Created engaging video content with the use of motion graphics, special effects, and transitions.",
+        "Managed video project workflows, including file organization, editing, and final rendering.",
+        "Collaborated with directors and content creators to ensure alignment with project goals and vision.",
+        "Implemented feedback to refine video edits and meet client or project specifications."
       ],
       "job_description": [
         "Edited high-definition video footage, incorporating advanced editing techniques to enhance visual storytelling.",
@@ -160,10 +208,11 @@
     {
       "id": "7",
       "title": "Music Project Revisited",
+      "title": "Music Project Revisited",
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "Music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "A reflective project that revisits and enhances a previously completed music project. It involves analyzing the original work, identifying areas for improvement, and implementing new ideas and techniques to elevate the project. This initiative aims to refine and expand upon past musical endeavors, bringing fresh perspectives and innovations.",
       "instagram_username": "mferdinr",
       "media": [
         "/project-image-1.png",
@@ -183,11 +232,11 @@
     },
     {
       "id": "8",
-      "title": "Cutting-Edge Website Features",
+      "title": "Cutting-Edge Web Features",
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "Website",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "This project explores the latest advancements in web technologies and features. It covers new tools and techniques for integrating dynamic and interactive elements into websites, including advanced JavaScript frameworks, real-time data processing, and enhanced user interface designs. It's aimed at developers looking to push the boundaries of web functionality.",
       "instagram_username": "arifamjy",
       "media": [
         "/project-image-1.png",
@@ -195,7 +244,7 @@
         "/project-image-5.png"
       ],
       "job_description": [
-        "Developed and integrated cutting-edge features into existing Website applications to enhance functionality and user experience.",
+        "Developed and integrated cutting-edge features into existing web applications to enhance functionality and user experience.",
         "Utilized modern programming languages and frameworks to implement new functionalities.",
         "Conducted thorough testing and debugging to ensure feature stability and performance.",
         "Collaborated with designers and developers to ensure seamless integration of new features."
@@ -211,7 +260,7 @@
       "email": "ferdinr@gmail.com",
       "is_finished": false,
       "category": "Video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "A project dedicated to developing and implementing unique video concepts. It focuses on brainstorming and creating innovative video ideas, experimenting with different storytelling techniques, and using creative visuals and effects. This project is designed to inspire creativity and originality in video production.",
       "instagram_username": "feridnoke",
       "media": [
         "/project-image-2.png",
@@ -235,7 +284,7 @@
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "Music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "This project covers the fundamental aspects of music production, including recording, mixing, and mastering. It provides an introduction to essential music production software and hardware, offering practical tips and techniques to produce high-quality music tracks. Ideal for beginners looking to start their journey in music production.",
       "instagram_username": "mferdinr",
       "media": [
         "/project-image-2.png",
@@ -248,18 +297,26 @@
         "Conducted hands-on workshops to demonstrate key production techniques and provide practical experience.",
         "Provided feedback and support to participants to help them apply learned techniques effectively."
       ],
+      "job_description": [
+        "Designed and delivered a comprehensive course on essential music production techniques and tools.",
+        "Created instructional materials covering topics such as audio recording, mixing, and mastering.",
+        "Conducted hands-on workshops to demonstrate key production techniques and provide practical experience.",
+        "Provided feedback and support to participants to help them apply learned techniques effectively."
+      ],
       "finished_date": "20-07-2024",
       "contributors": ["ahmad sri", "sri tayu"],
+      "is_my_project": false,
+      "author": "James Lee"
       "is_my_project": false,
       "author": "James Lee"
     },
     {
       "id": "11",
-      "title": "Website Design Innovation",
+      "title": "Web Design Innovation",
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "Website",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "An exploration of innovative web design techniques and trends. This project delves into cutting-edge design practices, including responsive layouts, micro-interactions, and user-centered design principles. It aims to inspire designers to create modern, engaging, and effective websites that stand out in the digital landscape.",
       "instagram_username": "arifamjy",
       "media": [
         "/project-image-2.png",
@@ -267,7 +324,7 @@
         "/project-image-6.png"
       ],
       "job_description": [
-        "Developed innovative Website design solutions focusing on enhancing user engagement and functionality.",
+        "Developed innovative web design solutions focusing on enhancing user engagement and functionality.",
         "Created and tested design prototypes to explore new ideas and approaches.",
         "Collaborated with developers to implement new design features and ensure seamless integration.",
         "Gathered and analyzed user feedback to refine design concepts and improve overall user experience."
@@ -283,7 +340,7 @@
       "email": "ferdinr@gmail.com",
       "is_finished": false,
       "category": "Video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "This project takes video production skills to the next level by focusing on advanced production techniques. It includes detailed tutorials on high-end camera work, advanced lighting setups, and professional editing strategies. The goal is to help video producers achieve exceptional results and push the boundaries of their creative work.",
       "instagram_username": "feridnoke",
       "media": [
         "/project-image-3.png",
@@ -307,7 +364,7 @@
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "Music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "A project aimed at enhancing the overall experience of music through interactive and immersive methods. It includes developing new ways to engage listeners, integrating technology to create unique listening environments, and exploring innovative musical experiences that deepen the connection between music and its audience.",
       "instagram_username": "mferdinr",
       "media": [
         "/project-image-1.png",
@@ -327,11 +384,11 @@
     },
     {
       "id": "14",
-      "title": "Advanced Website Technologies",
+      "title": "Advanced Web Technologies",
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "Website",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "This project delves into advanced web technologies and development practices. It covers topics such as server-side programming, database management, and API integration. The goal is to equip developers with the skills needed to build complex and scalable web applications using the latest technologies.",
       "instagram_username": "arifamjy",
       "media": [
         "/project-image-1.png",
@@ -339,8 +396,8 @@
         "/project-image-2.png"
       ],
       "job_description": [
-        "Explored and implemented advanced Website technologies to improve Website functionality and performance.",
-        "Developed custom Website applications and features using cutting-edge technologies.",
+        "Explored and implemented advanced web technologies to improve website functionality and performance.",
+        "Developed custom web applications and features using cutting-edge technologies.",
         "Collaborated with cross-functional teams to integrate new technologies into existing systems.",
         "Conducted thorough testing to ensure compatibility and performance across various platforms."
       ],
@@ -355,12 +412,20 @@
       "email": "ferdinr@gmail.com",
       "is_finished": false,
       "category": "Video",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "An essential guide to the core principles of video editing. This project covers basic to intermediate editing techniques, including cutting, transitions, and basic effects. It provides a solid foundation for beginners to develop their video editing skills and produce polished and engaging video content.",
       "instagram_username": "feridnoke",
       "media": [
         "/project-image-1.png",
         "/project-image-3.png",
         "/project-image-5.png"
+        "/project-image-3.png",
+        "/project-image-5.png"
+      ],
+      "job_description": [
+        "Provided a comprehensive guide to essential video editing techniques and tools.",
+        "Created tutorial content covering various aspects of video editing including cutting, transitions, and effects.",
+        "Facilitated hands-on workshops to allow participants to practice and refine their editing skills.",
+        "Offered one-on-one support and feedback to help participants enhance their editing abilities."
       ],
       "job_description": [
         "Provided a comprehensive guide to essential video editing techniques and tools.",
@@ -379,7 +444,7 @@
       "email": "mohferdinandramdhani@student.uns.ac.id",
       "is_finished": true,
       "category": "Music",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "An interactive workshop focused on the practical aspects of music production. Participants engage in hands-on sessions covering various production techniques, including beat making, sound design, and mixing. The workshop is designed to provide practical experience and insights into the music production process.",
       "instagram_username": "mferdinr",
       "media": [
         "/project-image-2.png",
@@ -399,21 +464,21 @@
     },
     {
       "id": "17",
-      "title": "Interactive Website Experience",
+      "title": "Interactive Web Experience",
       "email": "arifamijoyo@student.uns.ac.id",
       "is_finished": false,
       "category": "Website",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "description": "This project focuses on creating interactive and engaging web experiences. It includes developing dynamic user interfaces, integrating interactive elements, and utilizing modern web technologies to enhance user engagement. The aim is to design websites that provide an immersive and enjoyable experience for visitors.",
       "instagram_username": "arifamjy",
       "media": [
         "/project-image-3.png",
-        "/project-image-2.png",
+        "/project-image-4.png",
         "/project-image-6.png"
       ],
       "job_description": [
-        "Designed and developed interactive Website experiences to engage users and enhance Website functionality.",
+        "Designed and developed interactive web experiences to engage users and enhance website functionality.",
         "Created interactive elements such as animations, dynamic content, and user interfaces.",
-        "Utilized modern Website technologies to implement interactive features and improve user engagement.",
+        "Utilized modern web technologies to implement interactive features and improve user engagement.",
         "Tested and refined interactive elements to ensure optimal performance across various devices and browsers."
       ],
       "finished_date": null,
@@ -427,7 +492,7 @@
       "email": "lily@example.com",
       "is_finished": false,
       "category": "Health",
-      "description": "A health project aimed at creating a wellness program for stress management. The project includes designing workshops, exercises, and resources.",
+      "description": "A project dedicated to designing and implementing a comprehensive wellness program aimed at managing stress and promoting mental health. It includes creating workshops, exercises, and resources to help individuals improve their overall well-being. The project emphasizes practical strategies for stress management and personal wellness.",
       "instagram_username": "lilywellness",
       "media": [
         "/project-image-3.png",
