@@ -224,9 +224,9 @@ const Navbar = () => {
           <a href="/">CollabIn</a>
         </h3>
         <ul className="flex gap-4 items-center cursor-pointer absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 navbar">
-          {NAV_LINKS.map((nav, index) => (
+          {NAV_LINKS.map((nav) => (
             <a
-              key={index}
+              key={nav.href}
               href={nav.href}
               className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
             >
