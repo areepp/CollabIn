@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header, { type HeaderProps } from '../../components/header'
 import Content from './content'
 import Button from '../../components/button'
+import { RevealDiv } from '../../components/reveal-animation'
 
 const PROJECTS_HEADER_TEXT = {
   all_projects: 'ALL PROJECTS',
@@ -40,11 +41,11 @@ const ProjectsPage = ({
         subHeaderText={subHeaderText}
       />
       {hasAddProjectButton && (
-        <div className="flex justify-end mr-6">
+        <RevealDiv className="flex justify-end mr-6">
           <Button className="text-right">
             <a href="/my-projects/new">ADD PROJECT</a>
           </Button>
-        </div>
+        </RevealDiv>
       )}
 
       <Content filter={filter} />

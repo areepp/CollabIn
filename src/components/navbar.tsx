@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 
 const NAV_LINKS = [
@@ -228,7 +228,7 @@ const Navbar = () => {
             <a
               key={nav.href}
               href={nav.href}
-              className="py-1 px-4 hover:bg-text hover:text-background rounded-sm"
+              className="py-1 px-4 hover:bg-text hover:text-background transition duration-300 rounded-sm"
             >
               {nav.title}
             </a>
@@ -239,7 +239,5 @@ const Navbar = () => {
     </>
   )
 }
-
-export const NAVBAR_HEIGHT = '64px'
 
 export default Navbar
