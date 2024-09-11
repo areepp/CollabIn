@@ -18,7 +18,7 @@ const ProjectThumbnail = ({
     href={`/projects/${id}`}
     className="flex flex-col lg:flex-row lg:even:flex-row-reverse lg:gap-6 gap-3 items-center cursor-pointer"
   >
-    <RevealAnimation className="h-[350px] relative">
+    <RevealAnimation className="h-full max-h-[250px] relative">
       <img
         src={imageUrl}
         className="w-full h-full object-cover grayscale hover:grayscale-0 transition"
@@ -26,7 +26,7 @@ const ProjectThumbnail = ({
       />
     </RevealAnimation>
     <div className="lg:w-px lg:h-[350px] bg-background" />
-    <div className="w-full self-start">
+    <div className="w-full">
       <RevealAnimation>
         <h3 className="text-4xl font-bold">{title}</h3>
       </RevealAnimation>
@@ -54,10 +54,10 @@ const HomePage = () => {
             </h1>
           </RevealDiv>
           <RevealDiv>
-            <p className="md:mt-12 mt-6 md:text-xl text-base max-w-xl md:mx-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever
+            <p className="md:mt-10 mt-6 md:text-xl text-base max-w-xl md:mx-auto">
+              Connects passionate individuals with meaningful community
+              projects. Join forces, share skills, and make a lasting impact
+              together.
             </p>
           </RevealDiv>
         </div>
@@ -81,14 +81,13 @@ const HomePage = () => {
             <RevealAnimation className="sm:w-3/5 w-4/5">
               <h2 className="text-5xl font-extrabold">OUR VISION</h2>
               <p className="mt-3 md:text-base text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centurie Lorem Ipsum is simply dummy text
-                of the printing and typesetting industry. Lorem Ipsum has been
-                the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a galley of type{' '}
+                At Collabin, we envision a future where collaboration is the
+                driving force behind progress and innovation. We believe that by
+                bringing people together to contribute their talents, skills,
+                and ideas, we can build stronger, more inclusive communities.
+                Our platform aspires to be the bridge that connects passionate
+                individuals with projects that make a meaningful difference,
+                fostering a culture of shared growth and collective success.
               </p>
             </RevealAnimation>
           </div>
@@ -104,14 +103,14 @@ const HomePage = () => {
             <RevealAnimation className="sm:w-3/5 w-4/5 text-right">
               <h2 className="text-5xl font-extrabold">OUR MISSION</h2>
               <p className="mt-3 md:text-base text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centurie Lorem Ipsum is simply dummy text
-                of the printing and typesetting industry. Lorem Ipsum has been
-                the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a galley of type{' '}
+                Our mission is to create an accessible platform where
+                individuals from all walks of life can contribute to
+                community-driven projects. Collabin is dedicated to fostering
+                collaboration, encouraging creativity, and amplifying the impact
+                of every participant. By enabling people to connect, share, and
+                work together, we aim to support initiatives that make real,
+                positive changes in society, empowering everyone to play a role
+                in shaping a better tomorrow.
               </p>
             </RevealAnimation>
           </div>
@@ -125,7 +124,10 @@ const HomePage = () => {
               PROJECTS
             </h2>
           </RevealAnimation>
-          <div className="lg:mt-12 mt-5 flex flex-col lg:gap-24 gap-12">
+          <div
+            className="lg:mt-12 mt-5 flex itemsc
+           flex-col lg:gap-24 gap-12"
+          >
             <ProjectThumbnail
               id={PROJECTS_JSON.projects[0].id}
               imageUrl={PROJECTS_JSON.projects[0].media[0]}
@@ -174,9 +176,10 @@ const HomePage = () => {
             <RevealAnimation>
               {' '}
               <p className="md:text-base text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, ustry.
+                Looking for like-minded individuals to bring your project to
+                life? Connect with passionate contributors from diverse
+                backgrounds and skill sets. Start collaborating and turn ideas
+                into reality today!
               </p>
             </RevealAnimation>
           </div>

@@ -18,14 +18,20 @@ const Form = () => {
 
       <div className="space-y-6 w-full md:w-max">
         <div className="flex md:flex-row flex-col md:gap-16 gap-5">
-          <TextInput label="CATEGORY" placeholder="music, platform, etc" />
+          <TextInput
+            label="CATEGORY"
+            placeholder="e.g. music, website, video"
+          />
           <TextInput label="INSTAGRAM (Optional)" placeholder="@username" />
         </div>
         <TextInput label="EMAIL" placeholder="name@email.com" type="email" />
-        <TextArea label="DESCRIPTION" placeholder="This project is....." />
+        <TextArea
+          label="DESCRIPTION"
+          placeholder="Description for the project"
+        />
         <TextArea
           label="JOB DESCRIPTION"
-          placeholder="This responsibility for project is....."
+          placeholder="Briefly describe the role, responsibilities, and skills you're looking for..."
         />
 
         <div className="space-y-3">
