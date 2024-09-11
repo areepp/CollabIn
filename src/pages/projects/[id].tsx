@@ -34,10 +34,12 @@ const ProjectDetail = ({
               {PROJECT_DATA.projects[id - 1].author} --{' '}
               {PROJECT_DATA.projects[id - 1].title}
             </p>
-            <div className="flex gap-2 mt-3 text-sm">
-              <p>contributors : </p>
-              <p>{PROJECT_DATA.projects[id - 1].contributors.join(', ')}</p>
-            </div>
+            {PROJECT_DATA.projects[id - 1].contributors.length > 0 && (
+              <div className="flex gap-2 mt-3 text-sm">
+                <p>contributors : </p>
+                <p>{PROJECT_DATA.projects[id - 1].contributors.join(', ')}</p>
+              </div>
+            )}
           </div>
           <div className="flex flex-col gap-3 sm:flex-row sm:gap-10">
             <p>{PROJECT_DATA.projects[id - 1].category}</p>
@@ -64,9 +66,7 @@ const ProjectDetail = ({
               <img
                 key={index}
                 src={media}
-                width="150"
-                height="150"
-                className="object-cover"
+                className="object-cover w-[150px] h-[150px] lg:w-[250px] lg:h-[250px]"
                 alt="other project attachment media"
               />
             ))}

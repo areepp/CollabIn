@@ -18,10 +18,10 @@ const ProjectThumbnail = ({
     href={`/projects/${id}`}
     className="flex flex-col lg:flex-row lg:even:flex-row-reverse lg:gap-6 gap-3 items-center cursor-pointer"
   >
-    <RevealAnimation className="h-full max-h-[250px] relative">
+    <RevealAnimation className="h-full relative">
       <img
         src={imageUrl}
-        className="w-full h-full object-cover grayscale hover:grayscale-0 transition"
+        className="w-full lg:min-w-[300px] xl:min-w-[400px] h-full max-h-[250px] object-cover grayscale hover:grayscale-0 transition"
         alt="project cover"
       />
     </RevealAnimation>

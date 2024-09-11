@@ -28,6 +28,7 @@ const project = PROJECTS_DATA.projects.find(project => project.id === id)
             third: String(project?.category),
           }}
           finished={project?.is_finished && String(project.finished_date)}
+          client:load
         />
       </div>
     </div>
