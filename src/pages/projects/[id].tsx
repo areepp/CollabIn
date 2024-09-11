@@ -16,7 +16,7 @@ const ProjectDetail = ({
     <div className="mb-[550px]">
       <div className="w-full max-h-[650px] min-h-[230px] h-[50vw] relative">
         <img
-          src={PROJECT_DATA.projects[id].media[0]}
+          src={PROJECT_DATA.projects[id - 1].media[0]}
           className="w-full h-full object-cover px-6 sm:px-12 lg:px-24"
           alt="project cover"
         />
@@ -29,12 +29,19 @@ const ProjectDetail = ({
       </div>
       <section className="relative mt-12 sm:mt-24 px-4 sm:px-8 lg:px-32 container mx-auto">
         <div className="flex flex-col gap-3 sm:gap-0 sm:flex-row sm:justify-between text-secondary">
-          <p>
-            {PROJECT_DATA.projects[id].author} --{' '}
-            {PROJECT_DATA.projects[id].title}
-          </p>
+          <div>
+            <p>
+              {PROJECT_DATA.projects[id - 1].author} --{' '}
+              {PROJECT_DATA.projects[id - 1].title}
+            </p>
+            <ul className="flex gap-8 pt-1 pl-2">
+              {PROJECT_DATA.projects[id - 1].contributors.map((contributor) => (
+                <li key={contributor}>{contributor}</li>
+              ))}
+            </ul>
+          </div>
           <div className="flex flex-col gap-3 sm:flex-row sm:gap-10">
-            <p>{PROJECT_DATA.projects[id].category}</p>
+            <p>{PROJECT_DATA.projects[id - 1].category}</p>
             <div className="w-fit">
               <img
                 src="/bookmark-icon.svg"
@@ -45,9 +52,9 @@ const ProjectDetail = ({
           </div>
         </div>
         <div className="sm:px-12 lg:px-44">
-          <p className="my-12">{PROJECT_DATA.projects[id].description}</p>
+          <p className="my-12">{PROJECT_DATA.projects[id - 1].description}</p>
           <div className="flex gap-6 flex-wrap justify-center">
-            {PROJECT_DATA.projects[id].media.map((media, index) => (
+            {PROJECT_DATA.projects[id - 1].media.map((media, index) => (
               <img
                 key={index}
                 src={media}
@@ -63,14 +70,16 @@ const ProjectDetail = ({
         <h2 className="text-3xl sm:text-5xl lg:text-7xl sm:px-16 lg:px-32 mt-24 text-secondary font-extrabold">
           HOW DO YOU CONTRIBUTE TO THIS PROJECT?
         </h2>
-        <p className="sm:px-20 lg:px-44 my-12">
-          {PROJECT_DATA.projects[id].job_description}
-        </p>
+        <ul className="sm:px-20 lg:px-44 my-12 space-y-5">
+          {PROJECT_DATA.projects[id - 1].job_description.map((point) => (
+            <p key={point}>- {point}</p>
+          ))}
+        </ul>
         <div className="relative mt-24 sm:mt-32 flex flex-col sm:flex-row sm:justify-between gap-12 sm:gap-0">
           <div className="flex items-center">
             <img src="/instagram-logo.svg" alt="instagram logo" />
             <span className="text-xl">
-              @{PROJECT_DATA.projects[id].instagram_username}
+              @{PROJECT_DATA.projects[id - 1].instagram_username}
             </span>
           </div>
           {isMyProject ? (

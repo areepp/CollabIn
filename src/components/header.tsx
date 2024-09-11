@@ -11,9 +11,16 @@ export type HeaderProps = {
     second: () => void
     third: () => void
   }
+  finished?: string | boolean
 }
 
-const Header = ({ headerText, subHeaderText, text, onClick }: HeaderProps) => {
+const Header = ({
+  headerText,
+  subHeaderText,
+  text,
+  onClick,
+  finished,
+}: HeaderProps) => {
   return (
     <div className="flex flex-col bg-text text-background relative">
       <ul className="flex xl:text-2xl lg:text-base text-sm font-bold z-10">
@@ -52,6 +59,7 @@ const Header = ({ headerText, subHeaderText, text, onClick }: HeaderProps) => {
         <h2 className="text-center xl:text-9xl md:text-7xl sm:text-6xl text-3xl mb-2">
           {headerText}
         </h2>
+        {finished && <p className="text-end w-full text-xl">{finished}</p>}
       </div>
     </div>
   )
