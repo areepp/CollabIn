@@ -99,7 +99,7 @@ const ProjectDetail = ({
                 <div className="absolute top-full pt-6 right-0 w-full lg:w-1/2 flex flex-col gap-3 lg:gap-6">
                   <TextInput
                     label="CONTRIBUTORS"
-                    placeholder="Enter the contributors of this project (separated by commas, e.g., John Doe, Quentin)"
+                    placeholder="(separated by commas, e.g., John Doe, Quentin)"
                   />
                   <Button>SET PROJECT AS FINISHED</Button>
                 </div>
