@@ -32,6 +32,6 @@ const project = PROJECTS_DATA.projects.find(project => project.id === id)
         />
       </div>
     </div>
-    <ProjectDetail id={Number(id)} client:load />
+    <ProjectDetail id={Number(id)} isMyProject={project?.is_my_project} client:load />
   </LayoutPageTransition>
 </Layout>
