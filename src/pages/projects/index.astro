@@ -1,15 +1,13 @@
 ---
 import Layout from '../../layouts/Layout.astro'
-import Content from './content'
-import ProjectsHeader from './projects-header'
+import ProjectsPage from './projects-page'
 import LayoutPageTransition from '../../layouts/LayoutPageTransition.astro'
 ---
 
 <Layout title="Projects | CollabIn">
   <LayoutPageTransition className="bg-text">
     <div class="container px-5 md:py-6 py-3 mx-auto">
-      <ProjectsHeader client:load />
-      <Content />
+      <ProjectsPage hasAddProjectButton={false} client:load />
     </div>
   </LayoutPageTransition>
 </Layout>

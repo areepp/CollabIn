@@ -1,21 +1,13 @@
 ---
-import Button from '../../components/button'
 import Layout from '../../layouts/Layout.astro'
-import Content from '../projects/content'
-import ProjectsHeader from '../projects/projects-header'
+import ProjectsPage from '../projects/projects-page'
 import LayoutPageTransition from '../../layouts/LayoutPageTransition.astro'
 ---
 
 <Layout title="My Projects | CollabIn">
   <LayoutPageTransition className="bg-text">
     <div class="container px-5 md:py-6 py-3 mx-auto">
-      <ProjectsHeader subHeaderText="MY PROJECTS" client:load />
-      <div class="flex justify-end mr-6">
-        <Button className="text-right">
-          <a href="/my-projects/new">ADD PROJECT</a>
-        </Button>
-      </div>
-      <Content />
+      <ProjectsPage subHeaderText="MY PROJECTS" hasAddProjectButton={true} client:load />
     </div>
   </LayoutPageTransition>
 </Layout>
