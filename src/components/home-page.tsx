@@ -43,7 +43,7 @@ const HomePage = () => {
       <section
         className={`relative z-10 flex items-center justify-center flex-col text-center h-[calc(100vh-80px)] bg-cover bg-center`}
         style={{
-          backgroundImage: 'url("/index-main-background.png")',
+          backgroundImage: 'url("/project-image-2.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black opacity-70 -z-10" />
