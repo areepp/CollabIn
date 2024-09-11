@@ -1,15 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Content from './projects/content'
-import ProjectsHeader from './projects/projects-header'
+import ProjectsPage from './projects/projects-page'
 import LayoutPageTransition from '../layouts/LayoutPageTransition.astro'
 ---
 
 <Layout title="Bookmarks | CollabIn">
   <LayoutPageTransition className="bg-text">
     <div class="container px-5 md:py-6 py-3 mx-auto">
-      <ProjectsHeader subHeaderText="BOOKMARKS" addProject={false} client:load />
-
+      <ProjectsPage subHeaderText="BOOKMARKS" hasAddProjectButton={false} client:load />
     </div>
   </LayoutPageTransition>
 </Layout>

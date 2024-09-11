@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Header, { type HeaderProps } from '../../components/header'
-import Content from '../projects/content'
+import Content from './content'
 import Button from '../../components/button'
 
 const PROJECTS_HEADER_TEXT = {
@@ -9,10 +9,10 @@ const PROJECTS_HEADER_TEXT = {
   finished: 'FINISHED',
 }
 
-const ProjectsHeader = ({
+const ProjectsPage = ({
   subHeaderText,
-  addProject,
-}: Pick<HeaderProps, 'subHeaderText' | 'addProject'>) => {
+  hasAddProjectButton,
+}: Pick<HeaderProps, 'subHeaderText'> & { hasAddProjectButton?: boolean }) => {
   const [headerText, setHeaderText] = useState(
     PROJECTS_HEADER_TEXT['all_projects']
   )
@@ -26,7 +26,6 @@ const ProjectsHeader = ({
   return (
     <>
       <Header
-        addProject={addProject}
         headerText={headerText}
         text={{
           first: PROJECTS_HEADER_TEXT['all_projects'],
@@ -40,7 +39,7 @@ const ProjectsHeader = ({
         }}
         subHeaderText={subHeaderText}
       />
-      {addProject && (
+      {hasAddProjectButton && (
         <div className="flex justify-end mr-6">
           <Button className="text-right">
             <a href="/my-projects/new">ADD PROJECT</a>
@@ -53,4 +52,4 @@ const ProjectsHeader = ({
   )
 }
 
-export default ProjectsHeader
+export default ProjectsPage

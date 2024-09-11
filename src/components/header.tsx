@@ -12,7 +12,6 @@ export type HeaderProps = {
     third: () => void
   }
   finished?: string | boolean
-  addProject: boolean
 }
 
 const Header = ({
