@@ -3,7 +3,7 @@ import { ImageInput, TextArea, TextInput } from '../../components/input'
 
 const Form = () => {
   return (
-    <div className="flex md:flex-row flex-col lg:justify-center md:justify-between lg:gap-20 gap-8 h-[calc(100vh-80px)] items-start lg:pt-[6vw] md:pt-12 pt-5 lg:px-12 px-8">
+    <div className="flex md:flex-row flex-col lg:justify-center md:justify-between lg:gap-20 gap-8 items-start lg:pt-[6vw] md:py-12 py-5 lg:px-12 px-8">
       <form
         action=""
         className="lg:text-5xl md:text-4xl text-2xl font-extrabold lg:space-y-10 space-y-6 w-full md:w-max"
