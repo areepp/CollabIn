@@ -49,7 +49,7 @@ const HomePage = () => {
         <div className="absolute inset-0 bg-black opacity-70 -z-10" />
         <div className="max-w-5xl text-start sm:text-center px-5">
           <RevealDiv>
-            <h1 className="lg:text-9xl md:text-8xl sm:text-7xl text-5xl text-text font-extrabold">
+            <h1 className="lg:text-9xl md:text-8xl sm:text-7xl text-5xl text-text font-extrabold hover:scale-125 transition duration-300">
               WE MAKE COLLABORATION, WAY EASIER.
             </h1>
           </RevealDiv>
@@ -76,6 +76,7 @@ const HomePage = () => {
                 width="250"
                 height="393"
                 alt="patung pahatan"
+                className="hover:scale-125 transition duration-500"
               />
             </RevealAnimation>
             <RevealAnimation className="sm:w-3/5 w-4/5">
@@ -98,6 +99,7 @@ const HomePage = () => {
                 width="250"
                 height="374"
                 alt="patung pahatan"
+                className="hover:scale-125 transition duration-500"
               />
             </RevealAnimation>
             <RevealAnimation className="sm:w-3/5 w-4/5 text-right">
