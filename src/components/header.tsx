@@ -59,7 +59,9 @@ const Header = ({
         <h2 className="text-center xl:text-9xl md:text-7xl sm:text-6xl text-3xl mb-2">
           {headerText}
         </h2>
-        {finished && <p className="text-end w-full text-xl">{finished}</p>}
+        {finished && (
+          <p className="text-end w-full md:text-xl text-sm">{finished}</p>
+        )}
       </div>
     </div>
   )

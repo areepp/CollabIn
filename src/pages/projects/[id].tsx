@@ -20,25 +20,24 @@ const ProjectDetail = ({
           className="w-full h-full object-cover px-6 sm:px-12 lg:px-24"
           alt="project cover"
         />
-        <div className="absolute inset-0 bg-text w-full h-[200px] -z-10" />
+        <div className="absolute inset-0 bg-text w-full h-[100px] -z-10" />
         <img
           src="/wave-3.svg"
           alt=""
-          className="absolute w-full top-28 -z-10"
+          className="absolute w-full top-[10vh] -z-10"
         />
       </div>
       <section className="relative mt-12 sm:mt-24 px-4 sm:px-8 lg:px-32 container mx-auto">
-        <div className="flex flex-col gap-3 sm:gap-0 sm:flex-row sm:justify-between text-secondary">
+        <div className="md:flex hidden flex-col gap-3 sm:gap-0 sm:flex-row sm:justify-between text-secondary">
           <div>
             <p>
               {PROJECT_DATA.projects[id - 1].author} --{' '}
               {PROJECT_DATA.projects[id - 1].title}
             </p>
-            <ul className="flex gap-8 pt-1 pl-2">
-              {PROJECT_DATA.projects[id - 1].contributors.map((contributor) => (
-                <li key={contributor}>{contributor}</li>
-              ))}
-            </ul>
+            <div className="flex gap-2 mt-3 text-sm">
+              <p>contributors : </p>
+              <p>{PROJECT_DATA.projects[id - 1].contributors.join(', ')}</p>
+            </div>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row sm:gap-10">
             <p>{PROJECT_DATA.projects[id - 1].category}</p>
@@ -46,10 +45,17 @@ const ProjectDetail = ({
               <img
                 src="/bookmark-icon.svg"
                 alt="bookmark icon"
-                className="cursor-pointer"
+                className="cursor-pointer md:w-7 w-5"
               />
             </div>
           </div>
+        </div>
+        <div className="w-full mb-3 mr-3 flex justify-end float-end md:hidden">
+          <img
+            src="/bookmark-icon.svg"
+            alt="bookmark icon"
+            className="cursor-pointer md:w-7 w-5"
+          />
         </div>
         <div className="sm:px-12 lg:px-44">
           <p className="my-12">{PROJECT_DATA.projects[id - 1].description}</p>
